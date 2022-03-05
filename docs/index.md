@@ -49,7 +49,7 @@ Basically, you need more than a conceptual model –typically understood by huma
 
 
 <p align="center">
-<img src="img/ot_main_concept.JPG" alt="PIXEL OT diagram" align="center" />
+<img src="img/ontology_spectrum.jpg" alt="PIXEL OT diagram" align="center" />
 </p>
 
 
@@ -61,7 +61,25 @@ Basically, you need more than a conceptual model –typically understood by huma
 ## Architecture for Semantic Web Applications
 <div align="justify">
    
-TBC
+A typical semantic web deployment requires the following modules:
+
+ - **RDF Parser**: it is able to read text in one or more of the previous RDF formats and interpret them as triples. The **RDF serializer** makes the opposite.
+ - **RDF store**: it is a database with the ability to store and retrieve data in the form of triples, also with the ability to merge multiple data sources.
+ - **RDF query engine**: it is associated with the RDF store and allows to retrieve RDF data in form of structured queries. SPARQL, standardized by the W3C, is the most common query language.
+ - **Application**: it performs some processing with the RDF data, typically obtained from a RDF store via RDF queries.
+ - **Reasoning engine**: this module is able to reason and infer logical consequences from RDF data or RDF schemas. Reasoning declarations, or part of them, can be expressed in the RDF query language and therefore the reasoning engine can be part of the RDF database. In other environments, the reasoning engine can also be used as a library by/within the Application.
+
+Before the appearance of NO-SQL databases, W3C provided recommendations, such as Direct Mapping (**DM**) and Relational to RDF Markup Language (**R2RML**) to assist in the mapping of a table to RDF and avoid ambiguities or guesses. 
+Currently the concept of RDF store can easily be ported to the web, as many HTML pages include structured information (e.g., contact information, opening hours, ratings, prices, etc.). This capability of embedding structured data in web pages is called **rich snippet** (vs. plain snippet), and can be really helpful in searches (e.g., to decide for a restaurant among others). Common ways to embed data in HTML web pages are **Microdata** (Schema.org), **RDFa** (W3C) and **JSON-LD**. For example, Facebook uses a simplified version of RDFa to encode OGP (Open Graph Protocol) data in a web page; it allows Facebook users link to pages outside of Facebook.
+
+Besides the way data is embedded (format), it is important to have some **shared vocabulary** for that data. **Schema.org** a joint initiative (Google, Microsoft, Yahoo) to provide shared ontologies supporting the embedding of structured data in web pages. It includes common things that you can describe in your web pages, such as Persons, Events, Organizations, Places, Ratings, etc. and binary objects (e.g., audio, video). The namespace for Schema.org is just [http://schema.org](http://schema.org) and one can use the prefix schema: for the different entities. A full analysis of the semantics of Schema.org is beyond the scope of this section, but there is plenty of related literature [6]. Schema.org’s main use is tightly coupled with Search Engine Optimization (SEO) and rich snippets, but any application can make use of it. Typically, the process follows 3 main steps:
+
+1. Define and model your data with Schema.org
+2.  Embed the data using any format (RDFa, Microdata, JSON-LD)
+3. Check it with some tool: [Google Structured Data Testing Tool](https://developers.google.com/search/docs/advanced/structured-data) or [W3C RDFa distiller](https://www.w3.org/2012/pyRdfa/)
+
+The RDF data model was designed with **data federation** in mind. The idea of federating information first (producing a federated graph) and then querying the federated information store facilitates the operational logic of the application.
+
 
 <br/><br/>
 
