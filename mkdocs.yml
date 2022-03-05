@@ -18,6 +18,9 @@ repo_url: https://github.com/benmomo/eiffel-ontology-doc
 
 nav:
     - Home: index.md
+    - Semantics in EO: geoss.md
+    - Ontologies used in EIFFEL: ontology.md
+    - User Guide: user_guide.md
 
 
 copyright: Apache License 2.0
