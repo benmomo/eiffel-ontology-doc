@@ -15,7 +15,7 @@ body {
  border-bottom-color : #000000;
  border-bottom-width: 1px;
  border-style: solid;
- background-color: #87de87;
+ background-color: #869734;
 }
 
 .wy-side-nav-search:before {
@@ -29,19 +29,19 @@ body {
 .wy-nav-side {background-color:transparent !important}
 .wy-nav-content {background-color: #fff}
 
-.wy-menu-vertical .current > a {background:#165016 !important}
-.wy-menu-vertical .current > a {background:#165016 !important}
-.wy-menu-vertical li.current a:hover {background-color: #165016}
-.wy-menu-vertical li.current > a:hover {background-color:#165016 !important}
-.wy-menu-vertical a:hover {background-color: #165016}
-.wy-menu-vertical span {color:#165016 !important}
-nav > div.wy-menu.wy-menu-vertical > ul > li > a {color:#165016 !important}
-.rst-versions {background:#165016 none !important}
-.rst-versions .rst-current-version {background-color:#165016 !important}
-.wy-side-nav-search {border-bottom-color : #165016}
-.wy-side-nav-search input[type=text] {border-color:#165016}
-.wy-nav-top {background-color: #165016}
-th {background-color:#165016}
+.wy-menu-vertical .current > a {background:#2E400a !important}
+.wy-menu-vertical .current > a {background:#2E400a !important}
+.wy-menu-vertical li.current a:hover {background-color: #2E400a}
+.wy-menu-vertical li.current > a:hover {background-color:#2E400a !important}
+.wy-menu-vertical a:hover {background-color: #2E400a}
+.wy-menu-vertical span {color:#2E400a !important}
+nav > div.wy-menu.wy-menu-vertical > ul > li > a {color:#2E400a !important}
+.rst-versions {background:#2E400a none !important}
+.rst-versions .rst-current-version {background-color:#2E400a !important}
+.wy-side-nav-search {border-bottom-color : #2E400a}
+.wy-side-nav-search input[type=text] {border-color:#2E400a}
+.wy-nav-top {background-color: #2E400a}
+th {background-color:#2E400a}
 
 h1, h2, h3, h4 {
     font-family: Montserrat,Helvetica,Arial,sans-serif !important;
@@ -52,10 +52,11 @@ h1, h2, h3, h4 {
 h1, h2{
     padding-top : 20px;
     padding-bottom : 3px;
-    box-shadow: 0px 7px 0px 0px #165016;
+    /*box-shadow: 0px 7px 0px 0px #2E400a;*/
+    box-shadow: 0px 7px 0px 0px #b77126;
 }
 h3 {
-    box-shadow: 0px 4px 0px 0px #165016;
+    box-shadow: 0px 4px 0px 0px #2E400a;
 }
 
 a.icon-home{
@@ -68,7 +69,7 @@ a.icon-home{
 }
 
 .wy-side-nav-search {
-	background: #87de87 !important; 
+	background: #869734 !important; 
   border-right: #efefef solid 1px;
  clear:both !important; 
  padding:60px 10px 16px 10px;
@@ -83,4 +84,4 @@ a.icon-home{
 
 .wy-side-nav-search a{background-color:transparent !important; }
 .wy-body-for-nav{background-image:none !important}
-.wy-nav-side{background-color: #87de87 !important}
+.wy-nav-side{background-color: #869734 !important}
