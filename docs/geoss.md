@@ -30,7 +30,7 @@ It is also worthwhile to mention that ontology had been a relevant aspect in the
 
 The architecture of GEOSS experienced big changes during the last decade, some categories were added, but still not clear taxonomy could be found. Searches are syntactic and using various protocols, as depicted in the Figure below. Here we can see how the GEOSS web portal connects to other data sources. Without going into detail one by one, **Opensearch** is the interface used for:
 - The **DAB (Data Access Broker)**, through which most data providers integrate in GEOSS. Unfortunately, there is **no** such thing as Linked data in GEOSS.
-- **NextGEOSS**, a recently ended research project which built a platform and somehow could be assimilated to EIFFEL’s goals, so that we can compare to them. 
+- **NextGEOSS**, a recently ended research project which built a platform and somehow could be assimilated to EIFFEL's goals, so that we can compare to them. 
 
 
 <p align="center">
@@ -47,7 +47,7 @@ Anyway, the GEOSS platform, as a system of system, is continuously evolving (see
 </p>
 
 
-There are four working groups in GEO’s 2020-2022 Work Programme:
+There are four working groups in GEO's 2020-2022 Work Programme:
 - **Capacity Development (CD- WG)**: mainly related to collecting sharing and building CD tools
 - **Climate change (CC-WG)**: intended to develop and implement CC strategies to foster the use of EO services for climate adaptation and mitigation, and supporting nations within the UNFCC and the IPCC.
 - **Data (Data-WG)**: it addresses data policy, ethics and governance by suing EO tools
