@@ -17,14 +17,14 @@ A deep description of GEOSS is out of the scope of this documentation. We will h
 
 
 <p align="center">
-<img src="img/link_geoss_eiffel.jpg" alt="link GEOSS and EIFFEL" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/link_geoss_eiffel.jpg" alt="link GEOSS and EIFFEL" align="center" />
 </p>
 
 Unfortunately, the current status of **GEOSS does not provide semantic support**, searches are mainly keyword based and the filters are basically independent among each other. Besides **geospatial** and **temporal** filtering, only the **thematic areas** of *Climate* and *ECVs* seem to be especially relevant for EIFFEL.
 It is also worthwhile to mention that ontology had been a relevant aspect in the past (2009), and a EO committee started to work in highlighting semantic vs semantic interoperability and studying various taxonomies and thesauri, but none of them were focussed on EO applications at that time. The GEOSS architecture then is shown in the Figure below. Sadly, the **work was discontinued** and no output ontology was provided nor included in the system (no reasons found yet).
 
 <p align="center">
-<img src="img/geoss_old_arch.jpg" alt="GEOSS old architecture" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/geoss_old_arch.jpg" alt="GEOSS old architecture" align="center" />
 </p>
 
 
@@ -34,7 +34,7 @@ The architecture of GEOSS experienced big changes during the last decade, some c
 
 
 <p align="center">
-<img src="img/geoss_arch.jpg" alt="GEOSS architecture" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/geoss_arch.jpg" alt="GEOSS architecture" align="center" />
 </p>
 
 
@@ -43,7 +43,7 @@ The GEOSS Curated Relationships domain is a set of tools that **allow the user**
 Anyway, the GEOSS platform, as a system of system, is continuously evolving (see Figure below) and EIFFEL may be relevant contributors for it. 
 
 <p align="center">
-<img src="img/geoss_evolution.jpg" alt="GEOSS evolution" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/geoss_evolution.jpg" alt="GEOSS evolution" align="center" />
 </p>
 
 
