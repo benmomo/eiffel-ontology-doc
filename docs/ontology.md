@@ -31,7 +31,7 @@ Only in the case that there is no suitable ontology or if the adaptation is too 
 - **What** we do want to **say about** these concepts (e.g., find a dataset Dx in timeframe Tx and location Lx providing ECVx information; find related services Sx using such dataset Dx in order to satisfy a defined SDGx).
 
 
-**The fourth step consists in defining the classes and the class hierarchy**. Now the definition process really starts. Note that this step and the following one (properties) are tightly intertwined – they are typically done together- and are the most critical ones in the design process.
+**The fourth step consists in defining the classes and the class hierarchy**. Now the definition process really starts. Note that this step and the following one (properties) are tightly intertwined - they are typically done together- and are the most critical ones in the design process.
 Classes are collection of **concepts with similar properties** within the designated domain (e.g., class of dataset, class of ECV, etc.). This is completely open for the ontology designer and they can decide the best way to define the classes. Furthermore, it is also open the way in which the class hierarchy is built: 
 
 - **Top-down**: from the most general concept to the most specialized one
