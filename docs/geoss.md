@@ -68,8 +68,98 @@ From the point of view of **semantics in particular**, the **Data-WG** is probab
 ## Copernicus
 <div align="justify">
 
-TBC
+**Copernicus** is the European Union's Earth observation programme, offering **free and open** information services that use **satellite Earth Observation** and **in-situ** (non-space, ground segment) data. It is managed by the EC with the collaboration of the ESA, EUMETSAT, ECMWF, EU Agencies and Mercator Ocean. Copernicus supports EuroGEOSS and is the **European contribution** to the GEO's Global Earth Observation System of Systems (GEOSS)
+The EO satellites used by the Copernicus services are split into two groups of missions:
 
+- **Sentinel satellites**: Sentinel-1, -2, -3, -5P and -6 are dedicated satellites, while Sentinel-4 and -5 are instruments onboard EUMETSAT’s weather satellites.
+- **Contributing Missions**: operated at National, European or International levels and provide additional data to Copernicus. ESA and EUMETSAT typically coordinate the delivery of data from these missions.
+
+Copernicus provides services that can be used and build **impact in multiple domains**, such as: agriculture, blue economy, climate change and environment, development and cooperation, energy and natural resources, forestry, health, insurance and disaster management, security and defence, tourism, transport and urban planning.
+More specifically, Copernicus officially identifies 6 main areas or services:
+
+1. **Atmosphere**: the **Copernicus Atmosphere Monitoring Service (CAMS)** provides data (and forecasts) about the atmosphere in 5 areas: *air quality and atmospheric composition, ozone layer and UV radiation, emission and surface fluxes, solar radiation and climate forcing*.
+   
+2. **Marine**: the **Copernicus Marine Environment Monitoring Service (CMEMS)** provides oceanic information to support various topics, such as: 
+    * *Marine safety* (currents, winds and sea ice for ship routing)
+
+    * *Marine resources* (protection and sustainable management of living marine species)
+	
+    * *Coastal and marine environment* (water quality monitoring data, sea level rise, sea surface temperature)
+    * *Weather, climate and seasonal forecasting* (temperature, salinity, sea level, currents, wind and sea ice)
+        
+3.	**Land**: the **Copernicus Land Monitoring Service (CLMS)** provides geographical information on land cover and its changes, land use, vegetation state, water cycle and Earth's surface energy variables. The main supporting applications in this field refer to *spatial and urban planning, forest management, water management, agriculture and food security, nature conservation and restoration, rural development, ecosystem accounting and mitigation/adaptation to climate change. Note that this last application directly links with Copernicus C3S, as they are not independent*.
+
+4.	**Climate Change**: the **Copernicus Climate Change Service (C3S)** provides information about the past, present and future climate in Europe and the rest of the World to support adaptation and mitigation policies. We will comment more on this service in the next section.
+
+5.	**Security**: this service provides supporting information for EU security challenges in three main areas:
+    *	*Border surveillance* (immigrants at sea, cross-border crime, etc. Operated by Frontex) 
+    
+    *	*Maritime surveillance* (safety of navigation, support to fisheries control, fight marine pollution and law enforcement. Operated by EMSA)
+    *  *Support to EU External Action -SEA- ** (support to third countries in crisis situations. Operated by SatCen).
+
+6.	**Emergency**: the **Copernicus Emergency Management Service (CEMS)** provides geo-spatial information from satellite, in situ or open data sources to stakeholders related to the management of natural disasters and other emergency situations. It consists of:
+    * *Mapping component* (maps for Civil Protection Authorities and Humanitarian Aid agencies. Implemented by the EC DG JRC. 
+    * *Early warning component* (also subdivided into EFAS, EFFIS and EDO) 
+
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/copernicus_general.jpg" alt="Copernicus Overview" align="center" />
+</p>
+
+More information about all services can be found on the [Copernicus website](https://www.copernicus.eu/en/copernicus-services). We will focus mainly in this document on Climate Change (C3S), as the EIFF-O should place a major effort on this domain according to the EIFFEL’s objectives, but some of the other services are also useful in the context of the EIFFEL pilots.
+
+C3s is based on three fundamental questions:
+- **How is the climate changing?** For this question C3S should provide EO data and reanalyses.
+- **How will climate change in the future?** For this question C3S should provide predictions and projections.
+- **How will climate change impact our society?** For this question C3S should provide climate indicators and sectorial information.
+
+
+C3S offers free and open access to climate data and tools to help scientists, consultants, planners and policy/decision- makers analyse and build adaptation and mitigation policies. The data is also intended for the media and the general public. The data constitutes an unvaluable resource to the Global Framework for Climate Services (GFCS) and target the climate needs as defined by the Global Climate Observing System (**GCOS**). This last organization is in charge of the Essential Climate Variables (**ECVs**), which will be described in section 3  
+C3S provides climate data through the Climate Data Store (CDS), but it is not about just offering datasets. The structure of C3s is decomposed in 4 building blocks:
+
+-	**Climate datasets**: these are further divided into:
+    * **Observations**: they are broadly organised or classified in form of ECV products, aligned with the ESA’s Climate Change Initiative (CCI).
+    * **Climate reanalyses**: they are consistent time-series datasets resulting from combining past observations with models and are widely used to see the evolution of climate variables across time. Examples are ERA5 (ECMWF) and ERA5-Land.  
+    * **Seasonal forecasts**: they are time-series datasets for forecast variables (air and sea-surface temperature, atmospheric circulation and precipitation) as well as graphical products They are updated on a monthly basis and cover a period of six months.
+    * **Climate projections**: they are simulation datasets for the long-term period based on numerical models (GCM – CMIP5 or RCM- CORDEX) for GHG, aerosols, etc. Main issues here relate to increasing the resolution of the models as well as better estimating the (sources of) uncertainties.
+
+-	**Tools for using climate data**: split into
+    * **Toolbox**: it is a ser of tools for developers to create web-based apps based on CDS datasets, whose access is abstracted through an API. It is also executed on CDS infrastructure. The [landing page](https://cds.climate.copernicus.eu/cdsapp#!/toolbox) provides documentation, toolbox editor, API and application gallery.
+    *	**Common data model (CDM)**: it provides a homogeneous format for all data and products in the CDS, so that they can be properly processed in the toolkit. The CDM is based on the Climate and Forecast (CF) convention.  According to the C3S [documentation](https://cds.climate.copernicus.eu/toolbox/doc/how-to/15_how_to_understand_the_common_data_model/15_how_to_understand_the_common_data_model.html), “the Toolbox CDM is a collection of dictionaries defining, for each variable in the CDS catalogue, the CDM compliant name, units, coordinates and attributes to be used in the Toolbox”
+
+
+-	**Sectorial impacts**: it consists of a set of demonstrators to show how climate data can be used to target specific goals. They encompass three areas:
+    * **Specific sectors**: water management, agriculture and forestry, insurance, energy, infrastructure & transport, health, coastal areas, disaster risk reduction, shipping, tourism, biodiversity and global users.
+    * **Sectorial projects**: several projects were created to build various scenarios that make use of the data and tools of C3S.
+    * **Data in action**: this relates to the concrete showcases of the demonstrator projects. 
+
+
+Among the different aspects from C3S, and from the *perspective of building an ontology, the CDM is probably the closest approach*; even if it has a different goal than the EIFF-O, at least it is able to define a set of terms and establish a relationship among them.  
+As the EIFF-O is intended to be used as an improved search tool, it is also worthwhile to briefly check for the different options available at C3S. Currently a user can search for 3 main types:
+
+- **Datasets**:  composed of three main items
+    * **Overview**: it provides a basic description as well as *data description* (type, horizontal coverage and resolution, vertical coverage and resolution, file format, versions, frequency update), *main variables* (name, unit, description) and *related variables*.
+    * **Download data**: it allows to select the variable to be downloaded, as well as temporal filters (year, month, hour) and output format (e.g., GRIB2, NetCDF-4).
+    * **Documentation**: links to related documents or wikis.
+    
+-	**Applications**: composed also of three main items
+    * **Overview**: main description including the input variables and the user-selected parameters.
+    * **Application**: widget with the app and the data description of the used dataset
+    * **Source code**: application source code
+- 	**Providers**: description of the given provider
+
+Additional metadata for the datasets, applications and providers include:
+- Contact information
+- License
+- Publication date
+- References (citations, DOIs, etc.) -optional
+- Related data (link to other related documents) -optional
+
+The response of an issued request can be sort by relevancy, title or type. The additional filtering criteria are represented in the Figure below with the associated number of results (as of December 2021). 
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/cds_filtering.jpg" alt="C3S CDS filtering criteria" align="center" />
+</p>
 
 <br/><br/>
 
