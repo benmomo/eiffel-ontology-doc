@@ -16,10 +16,11 @@ The front-end is in charge of providing access to the **different actors** inter
 
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_arch.jpg" alt="EIFF-O architecture" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_arch.png" alt="EIFF-O architecture" align="center" />
 </p>
 
 The back-end is responsible for providing the different visible services related to the supported ontologies:
+
 - The **ontology viewer** allows to explore in a visual way the different entities of the ontology, as well as their properties and related instances (if any). It is a web-based implementation of the *Visual Notation for OWL ontologies (VOWL)*.
 - The **SPARQL endpoint** allows to make SPARQL queries for the four different ontologies (EIFF-O, EO, ECV and SDG), which are previously uploaded in the SPARQL server. This is probably the most powerful way to exploit ontologies and reason among them. However, its usage within the EIFFEL project might be limited or restricted for some reasons:
 
