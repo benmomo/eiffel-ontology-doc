@@ -11,7 +11,7 @@ The EIFF-O module is composed of two main blocks: a **front-end** and a **back-e
 The front-end is in charge of providing access to the **different actors** interacting with this subsystem:
 
 - **Machines or software agents** might directly retrieve the different ontologies provided (EIFF-O, EO taxonomy, ECV taxonomy and SDG taxonomy)
-- **Users** might employ the Access UI to perform a basic usage of all functionalities of the EIFF-O module as an independent block. This is probably not relevant in the whole EIFFEL architecture, as the Visualization Engine is supposed to be the main user’s entry point; however, it makes sense for basic checks. 
+- **Users** might employ the Access UI to perform a basic usage of all functionalities of the EIFF-O module as an independent block. This is probably not relevant in the whole EIFFEL architecture, as the Visualization Engine is supposed to be the main user's entry point; however, it makes sense for basic checks. 
 - The **proxy module** is mainly responsible to provide access to backend services for external modules and actors. It might incorporate also some basic security mechanisms (e.g., authentication), but it can be omitted if the security is handled as a cross-layer within the overall EIFFEL architecture.
 
 
@@ -29,7 +29,7 @@ The back-end is responsible for providing the different visible services related
 - The **EIFF-O REST API** will serve for most of the functionalities needed from other modules within the EIFFEL architecture:
 
     * It should provide tagging support for the different entities, mainly for datasets but probably also for services and providers. By using ECV, SDG and EO taxonomies, terms from those vocabularies should be included somehow and as much as possible as metadata in the newly created items (datasets, services). Currently it is not clear whether this step will be performed automatically or manually, but in any case, assistance should be provided through this API.
-    *	It could ‘wrap’ some common requests to the ontology without the need of using SPARQL, in order to provide a full JSON interface. For example, one may request to get the list of SDG goals or targets as a JSON file without the need of requesting entities and properties via SPARQL.
+    *	It could wrap some common requests to the ontology without the need of using SPARQL, in order to provide a full JSON interface. For example, one may request to get the list of SDG goals or targets as a JSON file without the need of requesting entities and properties via SPARQL.
     * It should provide any other needed functionality that might appear during development and is not part of the previously identified ones.        
 
 
