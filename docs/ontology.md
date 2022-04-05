@@ -67,6 +67,40 @@ Bear in mind that this is an iterative process that repeats as long as you want;
 </div>
 <br/><br/>
 
+## ECV Taxonomy
+<div align="justify">
+   
+The ECV ontology has been created following the current online information provided by GCOS. It has been a **hard and tedious work** because there is **no repository of structured data** to extract the information automatically, and the information given in form of **PDF fact sheets** were ported manually as individuals of the ontology. The structure of the ECV ontology is depicted in the Figure below.    
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/ecv_ontology.jpg" alt="ECV Ontology" align="center" />
+</p>
+
+This ontology is focussed on **ECVs (Essential Climate Variables)**, which are the main entities and whose properties relate to other entities:
+-	ECVs pertain to a **domain**, which can be **Atmosphere, Land** and **Ocean**, considered *first level* domains. Each domain, according to GCOS, has some *second-level* domains:
+    -	The Atmosphere first-level domain includes **Surface, Upper-Air** and **Atmospheric Composition** second-level domains.
+    -	The Land first-level domain includes **Hydrosphere, Cryosphere, Biosphere** and **Anthroposphere** second-level domains.  
+    -	The Ocean first-level domain includes **Physical, Biogeochemical** and **Biological/ecosystems** second-level domains.
+In summary, there are **54 ECVs** split among these 10 second-level domains as of 2022. This categorization is subject to be changed by GCOS in a near future, but no further information is provided in this regard by this organization. We think that by having a structed way of handling the information the update (in fact, any update) will be more comfortable, safer and automatic.  
+
+-	ECVs are also assigned to a **scientific area**, somehow also related to the domain, but with its own independent meaning. These scientific areas were given by CGOS and to our knowledge do not follow any official taxonomy. Some examples are: *Hydrosphere, Physical Properties, Energy and Temperature, Carbon cycle and other GHGs*, etc.
+
+-	ECVs have one or more **ECV Steward** assigned. They are (voluntary) representatives for each ECV, **in charge of keeping track of all related information** (mainly data sources and products) for a given ECVs. An ECV steward can be assigned to more than one ECV (typically if they fall under the same domain or scientific area). Unfortunately, the current information provided by GCOS concerning the ECV stewards seems **very limited and probably not updated**. For each ECV, you basically get a name (o more) for the ECV steward, but no proper contact information. In terms of ontologies, it seems impossible here with the given info to use any available contact ontology or FOAF ontology.  In the best case, but not for all ECVs, GCOS provides an [online list](https://gcos.wmo.int/en/terrestrial-observation-panel-climate/ECV-Stewards) of ECVs, associated stewards and their affiliations; however, the status is as of September 2020.
+
+-	ECVs have a series of associated **data sources** that provide information for such ECV. The data sources are classified under four types: **in situ data, gridded in situ data, Reanalysis data and satellite data**.  Apart from this category, a data source has a name (typically the name of the provider) and a weblink to access the datasets.
+
+-	ECVs have one or more **products** associated, each one with a **name, a description and a set of requirements**. A requirement unit covers various variables, such as **frequency, resolution, required measurement uncertainty, stability and related standards/references**.
+
+While inserting the 54 ECV individuals in the ontology the name has been respected and kept from GCOS. Moreover, links to official icon and PDF factsheet has also been included as part of the properties of each ECV.
+
+<br/><br/>
+
+</div>   
+
+
+<br/><br/>
+
+
 
 ## SDG taxonomy
 <div align="justify">
@@ -79,18 +113,7 @@ TBC
 </div>
 
 
-## ECV Taxonomy
-<div align="justify">
-   
-TBC 
 
-
-<br/><br/>
-
-</div>   
-
-
-<br/><br/>
 
 
 
