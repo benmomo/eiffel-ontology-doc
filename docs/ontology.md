@@ -105,15 +105,15 @@ While inserting the 54 ECV individuals in the ontology the name has been respect
 ## SDG taxonomy
 <div align="justify">
 
-The United Nations (UN) provides a platform for [linked data services](http://metadata.un.org/?lang=en) that is hosted by the Dag Hammarskjöld Library. Currently it only hosts two resources:
+The United Nations (UN) provides a platform for [linked data services](http://metadata.un.org/?lang=en) that is hosted by the Dag Hammarskjold Library. Currently it only hosts two resources:
 
 -	**UNBIS Thesaurus**: it contains a list of terms that are used in indexing and cataloging documents and other material relevant to UN. This is not particularly relevant for our EIFFEL ontology.
 -	**Sustainable Development Goals (SDGs)**: The [web list](http://metadata.un.org/sdg/?lang=en) includes all 17 SDGs together with their targets and indicators. This information seems relevant because it can be **linked with datasets from the EO field**. In other words, datasets associated to the EO world can be used to develop EO applications which probably aim at targeting one SDG or, more specifically, one of the targets and indicators. 
 
-As this online repository didn’t provide a structured file to process the data, we contacted the Dag Hammarskjöld Library to request for JSON or OWL files. Fortunately, they provided a [GitHub repository](https://github.com/UNStats/LOD4Stats) including the requested and additional information. We will provide here just a brief summary to understand its meaning as part of the EIFFEL ontology.
+As this online repository didn't provide a structured file to process the data, we contacted the Dag Hammarskjold Library to request for JSON or OWL files. Fortunately, they provided a [GitHub repository](https://github.com/UNStats/LOD4Stats) including the requested and additional information. We will provide here just a brief summary to understand its meaning as part of the EIFFEL ontology.
 The general process is depicted in the Figure below and considers three main use cases:
 
--	**Dataset description**: by using metadata and promote discoverability. It considers schema.org or DCAT annotations as well as CSVW. Datasets might also be tagged with concepts from other taxonomies in order to generally contextualise the dataset. For SDG they considered UNBIS and Eurovoc – multilingual thesaurus managed by the Publications Office of the European Union -.
+-	**Dataset description**: by using metadata and promote discoverability. It considers schema.org or DCAT annotations as well as CSVW. Datasets might also be tagged with concepts from other taxonomies in order to generally contextualise the dataset. For SDG they considered UNBIS and Eurovoc (multilingual thesaurus managed by the Publications Office of the European Union).
 -	**Data description**: by expressing statistical data in linked data compliant formats. It considers RDF Data Cube vocabulary and SCOVO (Statistical Core Vocabulary) as well as spatiotemporal concepts.
 -	**Content linking**: by associating different content types in a meaningful way. It involves finding similarity among different items based on their semantic annotations.
 
