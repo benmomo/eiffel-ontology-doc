@@ -93,6 +93,7 @@ It is not the same data on the web (e.g., a PDF on a web page) that the web of d
 - The WEB of data is built on top of HTTP/HTTPS, RDF and URIs/IRIs
  
 Currently **resource**s (URLs/URIs) on the web can be pretty much anything:
+   
 - URI for Valencia in DBpedia: [https://dbpedia.org/page/Valencia](https://dbpedia.org/page/Valencia)
 - URI for Valencia in Wikidata: [https://www.wikidata.org/wiki/Q8818](https://www.wikidata.org/wiki/Q8818)
 - URI for the name Joaquin Sorolla in the Library of Congress: [https://www.loc.gov/item/2016857349/](https://www.loc.gov/item/2016857349/)
