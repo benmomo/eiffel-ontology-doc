@@ -150,14 +150,11 @@ The **SDG taxonomy** defines the different individuals for the different classes
    
 *Note: The information presented here is extracted or summarized from deliverable D4.3 - Assessment of Copernicus Uptake (Update of the user-oriented taxonomy) of the CopHub.AC H2020 project (Copernicus Academy Hub for Knowledge, Innovation and Outreach).*
 
-<br/><br/>
 
 </div>   
 
-<br/><br/>
 
-
-### Introduction
+### 1. Introduction
 <div align="justify">
 
 In an attempt to bring services from the EO sector to their markets an EO taxonomy was created for several reasons, among others:
