@@ -150,6 +150,16 @@ The **SDG taxonomy** defines the different individuals for the different classes
    
 *Note: The information presented here is extracted or summarized from deliverable D4.3 - Assessment of Copernicus Uptake (Update of the user-oriented taxonomy) of the CopHub.AC H2020 project (Copernicus Academy Hub for Knowledge, Innovation and Outreach).*
 
+<br/><br/>
+
+</div>   
+
+<br/><br/>
+
+
+### Introduction
+<div align="justify">
+
 In an attempt to bring services from the EO sector to their markets an EO taxonomy was created for several reasons, among others:
 
 - 	It is a tool to improve the **understanding between communities**
@@ -163,9 +173,6 @@ The **taxonomy** effort is a process of **naming and classifying** the EO servic
 Though there are some partial taxonomy approaches, no EO standard exists today. The EO taxonomy tries to harmonise them in a hierarchical perspective, but also providing relevant aspects such as: 
 -	verbs to define the object
 -	verbs to communicate the actions that the final users need to understand in the elaboration of the services
-
-
-
 
 
 <br/><br/>
