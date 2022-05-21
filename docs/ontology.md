@@ -148,7 +148,24 @@ The **SDG taxonomy** defines the different individuals for the different classes
 ## EO Taxonomy
 <div align="justify">
    
-TBC 
+*Note: The information presented here is extracted or summarized from deliverable D4.3 - Assessment of Copernicus Uptake (Update of the user-oriented taxonomy) of the CopHub.AC H2020 project (Copernicus Academy Hub for Knowledge, Innovation and Outreach).*
+
+In an attempt to bring services from the EO sector to their markets an EO taxonomy was created for several reasons, among others:
+
+- 	It is a tool to improve the **understanding between communities**
+-	It follows the process of **naming, classifying, categorizing and structuring** EO services and products
+-	It provides a clear and **common description** of the knowledge landscape (ontologies, taxonomies, associations among terms, keywords, etc.)
+
+In summary, it tries to somehow address the following question: **how can end users know which EO services are available for their needs in their specific activity?**
+
+The **taxonomy** effort is a process of **naming and classifying** the EO services and products as a tool to improve the understanding between communities while the specific **ontology** analysis is a process of defining **vocabulary, representation of knowledge and making relationships**.
+
+Though there are some partial taxonomy approaches, no EO standard exists today. The EO taxonomy tries to harmonise them in a hierarchical perspective, but also providing relevant aspects such as: 
+-	verbs to define the object
+-	verbs to communicate the actions that the final users need to understand in the elaboration of the services
+
+
+
 
 
 <br/><br/>
