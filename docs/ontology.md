@@ -172,6 +172,13 @@ Though there are some partial taxonomy approaches, no EO standard exists today. 
 -	verbs to communicate the actions that the final users need to understand in the elaboration of the services
 
 
+|DIKW|Question|Description|
+|---|---|---|
+|Data & Information|**What** data?|Refers to geospatial data content, including its quality and usability. How the data is consistently (temporally/geographically) collected and how it is “made” with a certain level of accuracy and confidence (spatial, temporal and spectral resolution). The validation and uncertainty assessment are a crucial requirement from the end-user perspective of a satellite data product.|
+|Knowledge|**How** and what type of access? |Final or intermediate users request the information be structured in some meaningful way so as to convey facilitate decision making. The data are represented in such a way, e.g., accessing and integrating the defined data layers to produce geospatial information, developing data models as to allow a justifiable belief in the user, through which decisions can be made|
+|Wisdom|**Why** the user needs that information? What type of EO user?|It is related to the user of the information products derived from the data (as well as data models) across vertical markets but also amongst key user communities. The wisdom generated through the EO data service provision is the justifiable belief in the state of the world, based on the knowledge generated from the data, from which sound decisions can be made|
+
+
 <br/><br/>
 
 </div>   
