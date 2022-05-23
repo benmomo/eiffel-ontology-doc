@@ -180,6 +180,7 @@ Though there are some partial taxonomy approaches, no EO standard exists today. 
 
 
 A common language is defined in terms of:
+
 -	**Data collection**
 -	**Data processing**, including pre-processing (levels 0,1) and processing (levels 2,3,4)
 -	**Data analysis**, as part of data processing, but due to its relevance, considering three realms:
