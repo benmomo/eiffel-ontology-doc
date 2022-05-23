@@ -222,6 +222,18 @@ The market view provides a tool to help classify and understand the markets for 
 <img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_marketView.jpg" alt="SDG ontology" align="center" />
 </p>
 
+A descriptive table is provided for each leaf/sector, but we will show just one example for environmental and climate in the table below
+
+
+|Sector|Users|Needs relevant to EO services|
+|---|---|---|
+|Environmental ecosystems & pollution|Environmental ecosystems & pollution users include coast guards, ambulance services, fire services, police services, civil protection organisations and rescue services|-	assist with the preservation of the natural environment such as reservoirs, inland water monitoring, water management systems (hydrological, hydrogeological maps, water point);
+-	solutions that safeguard the environment such as environmental impact assessment, strategic environmental consultancy, sustainability, waste & resources);
+-	resilient & sustainable ecosystems including continuous monitoring of ecosystems such as wetlands;
+|
+|Knowledge|**How** and what type of access? |Final or intermediate users request the information be structured in some meaningful way so as to convey facilitate decision making. The data are represented in such a way, e.g., accessing and integrating the defined data layers to produce geospatial information, developing data models as to allow a justifiable belief in the user, through which decisions can be made|
+
+
 <br/><br/>
 
 </div>   
