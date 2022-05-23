@@ -228,8 +228,35 @@ A descriptive table is provided for each leaf/sector, but we will show just one 
 |Sector|Users|Needs relevant to EO services|
 |---|---|---|
 |Environmental ecosystems & pollution|Environmental ecosystems & pollution users include coast guards, ambulance services, fire services, police services, civil protection organisations and rescue services|-	assist with the preservation of the natural environment such as reservoirs, inland water monitoring, water management systems (hydrological, hydrogeological maps, water point);<br/> -	solutions that safeguard the environment such as environmental impact assessment, strategic environmental consultancy, sustainability, waste & resources);<br/> -	resilient & sustainable ecosystems including continuous monitoring of ecosystems such as wetlands; |
-|Meteo & climate|Meteorologists in a range of downstream sectors |-	disaster resilience and assessing extreme weather;<br/> - monitor, understand, evaluate and assess the impact of the climate change;<br/> -	prediction of conditions of atmosphere reliable weather forecasts;<br/> - mitigation actions preventing/reducing the emission of greenhouse gases into the atmosphere;<br/> - climate change data modelling (aerosol, biomass, cloud, fire, greenhouse gases (GHG), glaciers, ice-sheets, land cover, land surface temperature, ocean colour, ozone, permafrost, salinity, sea ice, sea level, sea state, soil moisture, snow, sea surface temperature (SST), water vapour);<br/> - renewable energy production prediction, all kinds of commodities market trading, inventory management
-|
+|Meteo & climate|Meteorologists in a range of downstream sectors |-	disaster resilience and assessing extreme weather;<br/> - monitor, understand, evaluate and assess the impact of the climate change;<br/> -	prediction of conditions of atmosphere reliable weather forecasts;<br/> - mitigation actions preventing/reducing the emission of greenhouse gases into the atmosphere;<br/> - climate change data modelling (aerosol, biomass, cloud, fire, greenhouse gases (GHG), glaciers, ice-sheets, land cover, land surface temperature, ocean colour, ozone, permafrost, salinity, sea ice, sea level, sea state, soil moisture, snow, sea surface temperature (SST), water vapour);<br/> - renewable energy production prediction, all kinds of commodities market trading, inventory management|
+
+
+<br/><br/>
+
+</div>   
+
+
+### 2. Market view
+<div align="justify">
+
+The thematic view provides a tool to help describe and classify the services and products that are offered by the service providers. The 'thematic perspective' deals unambiguously with a thematic application area (e.g., agriculture), which is not linked per se to the processing or acquisition of EO (or indeed, other kinds of) data or, quite naturally, to activities further upstream (i.e. satellite and sensor design or manufacture), instead the source focuses on concepts, challenges and applications in a specific domain (e.g. agriculture) or thematic segment (agriculture monitoring).
+The updated structure of the taxonomy thematic viewpoint allows for 4 levels/tiers in the description of EO services from the supplier side point of view. The Table below presents the EO services structure.
+
+
+
+|Level|Name|Coverage|Description|
+|---|---|---|---|
+|L1|**Thematic classes (DOMAIN)**|Single block of knowledge (big category of objects)|Largest conceptual category (typically nouns) covering all known areas of EO services from the supplier's point of view. The EARSC taxonomy contains 6 classes. |
+|L2|**Thematic segment (AREA)** |Set of EO services (Greater detail of objects)|Classifies concepts in greater detail, i.e. different segments. The upgrade proposes 31 areas compared with the 25 in the previous taxonomy.|
+|L3|**EO Service (SERVICE)** |Purpose of the information |EO services (sometimes considered applications by service providers) propose an action or a sequence of actions (specific events appropriate in a given situation, e.g., 'assess the environmental impact of farming'. For example, it unifies major entities such as environment, agriculture or deeper in granularity such as crops. The range today covers more than 80 services.|
+|L4|EO Application |Specific for a geographical area, timeline, etc.| This level presents set **keywords** which in effect define the **products** which make up a service (key words are also considered in our taxonomy to represent **products, parameters or essential variables**).|
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_marketView.jpg" alt="SDG ontology" align="center" />
+</p>
+
+
+
 
 
 <br/><br/>
