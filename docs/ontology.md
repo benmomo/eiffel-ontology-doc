@@ -266,7 +266,7 @@ For each specific domain (level 1), specific set of actions (verbs) are identifi
 And the different thematic areas will have the following thematic keywords
 
 |Thematic area|Thematic keyword|
-|---|---|---|---|
+|---|---|
 |**atmosphere** | ...quality-controlled information related to air composition, pollution and health, solar energy, greenhouse gases (GHG) emissions and climate forcings |
 |**Climate change** | ...long-term datasets (also linked to weather forecasts) on key indicators of climate change systematically generated and preserved to better understand climate change and associated adaptation and mitigation measures and risk management (i.e., large-scale ecological response to global climate change such greening of the Arctic). The assessment of climatic variations may persist over decades or more. This is measured through geophysical quantity/quantities associated with climate variations and change as well as the impact of climate change onto Earth (time series analysis, anomaly detection, missing data reconstruction, forecasting). Climate change is triggering factors on geohazards or direct effect for many land and ocean processes.|
 |**metereology** | ...seasonal preparedness, forecasting of meteorological variables e.g. air temperature, wind, humidity, cloud coverage, precipitation and evapotranspiration (related to numerical weather prediction models, in-situ observational data and machine learning techniques). |
@@ -277,7 +277,7 @@ And the different thematic areas will have the following thematic keywords
 </div>   
 
 
-### 4. alignment with Copernicus
+### 4. Alignment with Copernicus
 <div align="justify">
 
 The alignment is summarized in the table below.
