@@ -179,13 +179,51 @@ Though there are some partial taxonomy approaches, no EO standard exists today. 
 |Wisdom|**Why** the user needs that information? What type of EO user?|It is related to the user of the information products derived from the data (as well as data models) across vertical markets but also amongst key user communities. The wisdom generated through the EO data service provision is the justifiable belief in the state of the world, based on the knowledge generated from the data, from which sound decisions can be made|
 
 
+A common language is defined in terms of:
+-	**Data collection**
+-	**Data processing**, including pre-processing (levels 0,1) and processing (levels 2,3,4)
+-	**Data analysis**, as part of data processing, but due to its relevance, considering three realms:
+    -	Descriptive (what happened?)
+    -	Analytics (what will happen?)
+    -	Prescriptive (how can we make it happen?)
+-	**Data use** (aggregation, visualization, distribution)
+-	**Standardised verbs** (assess, detect, forecast, map, monitor and analyse)
+-	**Thematic** (technician/expert view) **approach**. This is broken down into: 
+    -	Domain (level 1)
+    -	Area (level 2)
+-	**Market **(customer/user view) **approach**
+    -	Market (level 1)
+    -	Sector (level 2)
+-	**EO service** as level 3 convergence from market and thematic approach. 
+-	**EO applications**, products and parameters and essential variables as level 4 entities
+
+Markets and thematic views are briefly described in the next sections.
+During the update of the EO taxonomy, EARSC also studied other structures, taxonomies and the potential mappings among concepts and/or categories, such as:
+
+-	**Copernicus Entrusted Entities taxonomy**: there 6 areas (atmosphere, marine, land, climate change, security and emergency), but are not focussed on the uptake” language of the users. They all six can be integrated at L1 or L2 of the EO taxonomy.
+-	**GSA’s (now EUSPA) GNSS taxonomy**: up to 16 areas. Some of them map well to the EO taxonomy (agriculture and forestry, energy, infrastructure, etc.), but others (aviation, rail, drones, geomatics) are more indirectly related to EO services.
+-	**GEO Societal Benefit Areas (SBAs)**: there are 9 areas here intended to provide support for decision making. The EO taxonomy market perspective offers alignment with the full set of SBAs.
+-	**International organizations’ approaches**: such as OECD topics, Global Industry Classification Standard (GICS), Industrial Classification Benchmark (ICB). Thomson Reuters Business Classification (TRBC), Eurostat and World Bank. All these structures present good alignment with the market perspective
+-	**Commercial service providers**
+-	**H2020 projects**: such as NextGEOSS and e-shape. NextGEOSS provides [13 thematic areas](https://catalogue.nextgeoss.eu/thematic-areas).  The [e-shape project](https://e-shape.eu/ ) covers 7 thematic areas (agriculture, health, renewable energy, ecosystem, water, disasters and climate) aligned with UN Sustainable Development Goals (SDGs) and GEO SBAs. By using the EO taxonomy, one may link and expand the E-SHAPE pilots, currently presented in SDG silos, to a (potential) user community.
+-	**ENVRI community**:  the community of [Environmental Research Infrastructures](https://envri.eu/research-infrastructures/ ), projects, networks and other diverse stakeholders  basically defines 4 main domains (atmospheric, marine, solid earth and biosphere).
+
 <br/><br/>
 
 </div>   
 
+### 2. Market view
+<div align="justify">
+
+The market view provides a tool to help classify and understand the markets for EO services as well as to define the type of customer. The representation of market stakeholders in the use of value-added services and applications is illustrated in the Figure below, and it focuses on user needs and the use of Earth observation from the users’ point of view.
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_marketView.jpg" alt="SDG ontology" align="center" />
+</p>
 
 <br/><br/>
 
+</div>   
 
 
 
