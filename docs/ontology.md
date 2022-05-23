@@ -287,8 +287,7 @@ The alignment is summarized in the table below.
 |EO thematic perspective|Copernicus Service|Copernicus components/areas/applications|
 |---|---|---|
 |Atmosphere & climate EO services | Copernicus Atmosphere Monitoring Service (CAMS) | -air quality and atmospheric composition <br/> - ozone layer and ultra-violet radiation <br/> - emissions and surface fluxes <br/> -solar radiation <br/> -climate forcing <br/> |
-| | Copernicus Atmosphere Monitoring Service (CAMS) | -support adaptation and mitigation policies by providing consistent and authoritative information about climate change (assessment of climate change impacts, risk management, sustainable human iterations within
-the environment...)|
+| | Copernicus Atmosphere Monitoring Service (CAMS) | -support adaptation and mitigation policies by providing consistent and authoritative information about climate change (assessment of climate change impacts, risk management, sustainable human iterations within the environment...)|
 |Built environment EO services | Services related to Copernicus Land Monitoring Service (CLMS) but specific for built environment  | |
 |Disasters & geohazards EO services  | Copernicus Emergency Management Service (Copernicus EMS) | - a mapping component; (e.g. as digital or printed map outputs) <br/> - an early warning component (The European Flood Awareness System (EFAS), The European Forest Fire Information System (EFFIS), The European Drought Observatory (EDO), Global Flood Awareness System (GloFAS), Global Wildfire Information System (GWIS) and Global Drought Observatory (GDO)... |
 |Land EO services | Copernicus Land Monitoring Service (CLMS)  | - systematic monitoring of biophysical parameters <br/> - land cover and land use mapping <br/> - thematic hot-spot mapping <br/> - imagery and reference data </br>  |
