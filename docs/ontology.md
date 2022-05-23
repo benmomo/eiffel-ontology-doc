@@ -284,7 +284,7 @@ The alignment is summarized in the table below.
 
 
 
-|EO thematic perspective|Copernicus Service|Copernicus cpmponents/areas/applications|
+|EO thematic perspective|Copernicus Service|Copernicus components/areas/applications|
 |---|---|---|
 |Atmosphere & climate EO services | Copernicus Atmosphere Monitoring Service (CAMS) | -air quality and atmospheric composition <br/> - ozone layer and ultra-violet radiation <br/> - emissions and surface fluxes <br/> -solar radiation <br/> -climate forcing <br/> |
 | | Copernicus Atmosphere Monitoring Service (CAMS) | -support adaptation and mitigation policies by providing consistent and authoritative information about climate change (assessment of climate change impacts, risk management, sustainable human iterations within
