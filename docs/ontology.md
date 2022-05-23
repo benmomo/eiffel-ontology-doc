@@ -219,7 +219,7 @@ During the update of the EO taxonomy, EARSC also studied other structures, taxon
 The market view provides a tool to help classify and understand the markets for EO services as well as to define the type of customer. The representation of market stakeholders in the use of value-added services and applications is illustrated in the Figure below, and it focuses on user needs and the use of Earth observation from the users' point of view.
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_marketView.jpg" alt="SDG ontology" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_marketView.jpg" alt="EO ontology (market view)" align="center" />
 </p>
 
 A descriptive table is provided for each leaf/sector, but we will show just one example for environmental and climate in the table below
@@ -251,8 +251,12 @@ The updated structure of the taxonomy thematic viewpoint allows for 4 levels/tie
 |L3|**EO Service (SERVICE)** |Purpose of the information |EO services (sometimes considered applications by service providers) propose an action or a sequence of actions (specific events appropriate in a given situation, e.g., 'assess the environmental impact of farming'. For example, it unifies major entities such as environment, agriculture or deeper in granularity such as crops. The range today covers more than 80 services.|
 |L4|EO Application |Specific for a geographical area, timeline, etc.| This level presents set **keywords** which in effect define the **products** which make up a service (key words are also considered in our taxonomy to represent **products, parameters or essential variables**).|
 
+
+It must be noted that within both the service provider and user communities the terms service and application tend to be used interchangeably. A **service** is defined as being a process incorporating e.g., sets of algorithms, EO data, model outputs etc. that are applied to give information or knowledge of the Earth, and an **application** as a specific implementation of that process.
+The Figure below represents the upgraded taxonomy with the Thematic (Supplier) perspective
+
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_marketView.jpg" alt="SDG ontology" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_providerView.jpg" alt="EO ontology (provider view)" align="center" />
 </p>
 
 
