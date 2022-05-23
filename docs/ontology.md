@@ -215,7 +215,7 @@ During the update of the EO taxonomy, EARSC also studied other structures, taxon
 ### 2. Market view
 <div align="justify">
 
-The market view provides a tool to help classify and understand the markets for EO services as well as to define the type of customer. The representation of market stakeholders in the use of value-added services and applications is illustrated in the Figure below, and it focuses on user needs and the use of Earth observation from the users’ point of view.
+The market view provides a tool to help classify and understand the markets for EO services as well as to define the type of customer. The representation of market stakeholders in the use of value-added services and applications is illustrated in the Figure below, and it focuses on user needs and the use of Earth observation from the users' point of view.
 
 <p align="center">
 <img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_marketView.jpg" alt="SDG ontology" align="center" />
