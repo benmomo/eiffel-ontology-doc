@@ -231,6 +231,18 @@ A descriptive table is provided for each leaf/sector, but we will show just one 
 |Meteo & climate|Meteorologists in a range of downstream sectors |-	disaster resilience and assessing extreme weather;<br/> - monitor, understand, evaluate and assess the impact of the climate change;<br/> -	prediction of conditions of atmosphere reliable weather forecasts;<br/> - mitigation actions preventing/reducing the emission of greenhouse gases into the atmosphere;<br/> - climate change data modelling (aerosol, biomass, cloud, fire, greenhouse gases (GHG), glaciers, ice-sheets, land cover, land surface temperature, ocean colour, ozone, permafrost, salinity, sea ice, sea level, sea state, soil moisture, snow, sea surface temperature (SST), water vapour);<br/> - renewable energy production prediction, all kinds of commodities market trading, inventory management|
 
 
+The **market view** is depicted in the Figure below. The basic overall concept is **View**. Though theoretically it could be possible to have multiple views, the EO taxonomy only defines two of them: market and provider view. We will focus first on the **MarketView**. The class contains one single individual to define the market view as defined by EARSC. This directly connects with the next class, **Market**. A MarketView is basically defined by a set of Markets it covers. EARSC defines 8 different markets (individuals of the Market class) in its latest version. This would allow to define other MarketView individuals with different Market individuals (e.g., previous versions of EARSC) or add additional Market individuals as the market evolves and new releases appear.
+The MarketView is also defined by the different operations or needs that the user might have. This is represented by the **UserNeed** class. EARSC defines (in its latest version) 6 main needs, as depicted in the Figure below. These six needs are also mapped to another simple DIKW categories. Basically, both are ways of characterizing the user need and the added value that is to be provided (e.g., an 'assessment need' will provide more added value than a 'detection need', and will probably imply a more complex service deployment in terms of software and/or hardware).
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_market_view.png" alt="EO ontology (market view)" align="center" />
+</p>
+
+Each market individual is composed of one or several Sectors, represented by the **Sector** class. It is a way of further reducing the scope the better define the target segment. EARSC defines 26 sectors (26 Sector individuals) in its latest version.  
+Each Sector defines a set of potential users or stakeholders interested in consuming EO services related to this specific sector. Such user profile is represented by the class **UserGroup**, and there is a one-to-one mapping between sector and user group. The userGroup concept has not been developed by EARSC and could have been defined as an internal part of Sector, but splitting both concepts give more flexibility to the ontology. The userGroup class is characterized by one or more EO needs (**EONeed** class), which are generic expectations from the users within a given sector in terms of exploiting EO data. EARSC briefly defines several EO needs for each sector.
+Finally, the concept of EO service (**EOService** class) is also included in this market view. However, this concept is better explained by EARSC in the thematic perspective, as will be described next.
+
+
 <br/><br/>
 
 </div>   
