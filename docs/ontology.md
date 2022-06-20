@@ -284,6 +284,16 @@ And the different thematic areas will have the following thematic keywords
 |**metereology** | ...seasonal preparedness, forecasting of meteorological variables e.g. air temperature, wind, humidity, cloud coverage, precipitation and evapotranspiration (related to numerical weather prediction models, in-situ observational data and machine learning techniques). |
 
 
+The **provider view** is depicted in the Figure below. One might find similarities in the way the ontology is built compared with the market view:
+-    There is one single **ThematicView** individual (ThematicView class) that derives from the View class.  
+-    The ThematicView can be broken down into several **Domains**. This is the first level of segmentation, and EARSC defines *6 individuals*. It is equivalent to the Market class in the market view, but here it is the provider who defines the different segments.
+-    Domains are decomposed into **Areas**, which is the second level of segmentation, and EARSC defines *31 individuals*. It is equivalent to the Sector class in the market view. 
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_provider_view.png" alt="EO ontology (provider view)" align="center" />
+</p>
+
+
 <br/><br/>
 
 </div>   
