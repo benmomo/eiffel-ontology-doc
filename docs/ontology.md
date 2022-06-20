@@ -285,6 +285,7 @@ And the different thematic areas will have the following thematic keywords
 
 
 The **provider view** is depicted in the Figure below. One might find similarities in the way the ontology is built compared with the market view:
+
 -    There is one single **ThematicView** individual (ThematicView class) that derives from the View class.  
 -    The ThematicView can be broken down into several **Domains**. This is the first level of segmentation, and EARSC defines *6 individuals*. It is equivalent to the Market class in the market view, but here it is the provider who defines the different segments.
 -    Domains are decomposed into **Areas**, which is the second level of segmentation, and EARSC defines *31 individuals*. It is equivalent to the Sector class in the market view. 
@@ -292,6 +293,22 @@ The **provider view** is depicted in the Figure below. One might find similariti
 <p align="center">
 <img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_provider_view.png" alt="EO ontology (provider view)" align="center" />
 </p>
+
+The **EOService** class represents the third level of segmentation according to EARSC, and it is a high-level and general representation of a service using EO data. Currently EARSC defines more than 80 services for the different areas. In order to better understand such concept, let's take an individual from the ontology as example:
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_service_example.png" alt="EO ontology (service example)" align="center" />
+</p>
+
+As can be seen, the EOService individual **#EOService_001** is associated to the **#AtmophereArea** individual. This service is further defined with the action to be performed on the associated Area (*relatedAction* property) as well as a further refinement of the action (*type* property). A short description allows to better understand the aim of this particular service. 
+The thematic view elaborates further the concept of service by introducing a *fourth* segmentation layer, called EO application (**EOApplication** class). According to the EARSC, it is expected to be a particular implementation of the EO service (e.g., at a particular location, within a particular time range, etc.). EARSC does not define any EO application; however, any implementation available in the market or elsewhere is supposed to fall under this category:
+
+-    Use cases from the EIFFEL project
+-	 Use cases from other projects (e.g., e-shape projects)
+
+Being an EO application a specific implementation of an EO service, it is further composed of a product (**Product** class) and a set of parameters (**Parameter** class). The concept of Product is not clearly defined by EARSC, but it points in the direction of a product offer and how it could be described. No example was provided so the concept still remains quite open and flexible.
+The parameters relate to the inputs required or used by the service (application) to generate the result, being one of such inputs the **Essential Variables**(EVs). Those variables are critical to observe and monitor different aspects of the Earth system, covering oceanography, climatology, biodiversity and geodiversity.  Considering the core domain of the EIFFEL project, the Essential Climate Variables (ECVs) are of nuclear importance.   
+The previous Figure also depicts links between the given concepts of the EO taxonomy and the previous **SDG** and **ECV** ontologies. ECVs can be directly included as a subclass of EVs. The SDG ontology, through an SDG or a target concept, can be linked as an additional property of an EO service and/or EO application.
 
 
 <br/><br/>
