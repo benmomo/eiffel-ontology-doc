@@ -181,7 +181,7 @@ Though there are many ontologies and thesauri for many different purposes, some 
 |**AGROVOC** |[AGROVOC](https://www.fao.org/agrovoc/) provides a way to organize knowledge for subsequent data retrieval. It is a structured collection of concepts, terms, definitions and relationships. Concepts represent anything in food and agriculture, such as maize, hunger, aquaculture, value chains or forestry. These concepts are used to unambiguously identify resources, allowing standardized indexing processes, making searching more efficient. Each concept in AGROVOC also has terms used to express it in various languages, so called lexicalizations. Today, AGROVOC consists of +40 300 concepts and +953 000 terms in up to 41 languages. AGROVOC is a relevant thesaurus about food and agriculture, published as linked open data, available for public use. <br/>**Possible link with EIFF-O**: the Thesaurus includes concepts such as *climate change, climate change adaptation, climate change mitigation*, and *climate models*, among others.|
 |**EARth** |[EARTh](https://vocabularyserver.com/cnr/ml/earth/en/) is a general-purpose thesaurus for the environment, which has been published as a SKOS dataset in the Linked Open Data Cloud. It intends to help in indexing and discovery environmental resources by refining and extending GEMET; besides it has been interlinked to popular LOD datasets as AGROVOC, EUROVOC, DBPEDIA and UMTHES. <br/>**Possible link with EIFF-O**: the Thesaurus includes plenty of concepts related to climate, such as *climate change, adverse climate change, climate damages, climate model*, etc.|
 |**ENVO** (Environmental Ontology)|[ENVO](https://sites.google.com/site/environmentontology/home)  is a big ontology for environmental entities with hundreds of terms and many more imported, it is able to describe concepts such as ecosystems, planets and other environmental processes; thus, it increases the interoperability of environmental descriptions and FAIRness support.<br/>**Possible link with EIFF-O**: the Thesaurus includes concepts such as *climate change* and *climate system*.|
-|
+
 
 
 <br/><br/>
@@ -225,7 +225,7 @@ The overall rating is then taken as the average of the previous 3 assessment ind
 
 
 |Project|Semantic support|Documentation|Available software & support|Overall rating|
-|---|---||---|---|---|
+|---|---|---|---|---|
 |**EDGE**|None|Low|Medium|Low|
 |**NextGEOSS**|None|Low|Medium|Low|
 |**GEOCRADLE**|None|Low|Low|Low|
