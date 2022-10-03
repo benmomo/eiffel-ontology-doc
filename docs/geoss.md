@@ -174,9 +174,16 @@ Though there are many ontologies and thesauri for many different purposes, some 
 
 |Ontology|Description|
 |---|---|
-|**SWEET** (Semantic Web for Earth Environmental Technology Ontology) |Originally developed by NASA’s JPL, it contains over 6000 concepts organized in various categories. Currently it is governed by the ESIP foundation and can be found on a [GitHub](https://github.com/ESIPFed/sweet)  repository. Top level concepts include Representation (e.g., time, space) and Realm (e.g., Ocean, Land Surface, Terrestrial Hydrosphere, Atmosphere). It has links and influence with *EnvO* (Environmental Ontology).**Possible link with EIFF-O**: concepts from the *ECV taxonomy* specified by GCOS can be mapped to Realm. Spatial and temporal properties from datasets can also be mapped to Representation.|
-
-
+|**SWEET** (Semantic Web for Earth Environmental Technology Ontology) |Originally developed by NASA’s JPL, it contains over 6000 concepts organized in various categories. Currently it is governed by the ESIP foundation and can be found on a [GitHub](https://github.com/ESIPFed/sweet)  repository. Top level concepts include Representation (e.g., time, space) and Realm (e.g., Ocean, Land Surface, Terrestrial Hydrosphere, Atmosphere). It has links and influence with *EnvO* (Environmental Ontology).
+**Possible link with EIFF-O**: concepts from the *ECV taxonomy* specified by GCOS can be mapped to Realm. Spatial and temporal properties from datasets can also be mapped to Representation.|
+|**ESA Thesaurus** |The European Space Agency provides a service for publication and browsing of EO related vocabularies, including interfaces for integration. Currently there is only one Thesaurus in the [online list](https://thesauri.spacebel.be/en/) supported by the open-source web-based SKOS browser and publishing tool [Skosmos](https://skosmos.org/).
+The Thesaurus includes many concepts and are hierarchically organized under 3 top concepts (Earth Topics, Instruments and Platforms). Generally, concepts are not well described (no description field), but just defined and linked with other terms through the *broader, narrower* and *exactMatch* property of SKOS.
+**Possible link with EIFF-O**: The concept *Atmospheric Indicators* under Earth Topics --> Earth Topic --> Climate could be further extended (narrowed) with the associated ECVs. In fact, the concept Essential Climate Variables also exist under the same parent concept, but they are not linked. It seems that the main intention of this Thesaurus is to link Earth concepts with the systems and techniques to capture data from space (e.g., Imaging Radars, Radar Altimeters, Scatterometers).|
+|**GEMET** (General Multilingual Environmental Thesaurus) |It has been developed as an indexing, retrieval and control tool for the European Topic Centre on Catalogue of Data Sources (ETC/CDS) and the European Environment Agency (EEA), Copenhagen.
+[GEMET](https://www.eionet.europa.eu/gemet/en/about/) is supported by the EEA and Eionet - the institutional environmental network of almost 40 European countries.
+It includes multiple concepts grouped by: (i) Human activities and products, effects on the environment, (ii) Natural environment, and (iii) social aspects, environmental policy measures. 
+Here the concepts include a definition as a way of better describing the concept itself as well as other related terms.
+**Possible link with EIFF-O**: The concept of climate change is part of the vocabulary, and it extends further covering climate change adaptation and climate change mitigation. The applications (services) in EIFFEL can be tagged with these concepts.|
 
 <br/><br/>
 
