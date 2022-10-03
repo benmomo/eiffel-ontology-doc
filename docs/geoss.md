@@ -183,7 +183,18 @@ The Thesaurus includes many concepts and are hierarchically organized under 3 to
 [GEMET](https://www.eionet.europa.eu/gemet/en/about/) is supported by the EEA and Eionet - the institutional environmental network of almost 40 European countries.
 It includes multiple concepts grouped by: (i) Human activities and products, effects on the environment, (ii) Natural environment, and (iii) social aspects, environmental policy measures. 
 Here the concepts include a definition as a way of better describing the concept itself as well as other related terms.
-**Possible link with EIFF-O**: The concept of climate change is part of the vocabulary, and it extends further covering climate change adaptation and climate change mitigation. The applications (services) in EIFFEL can be tagged with these concepts.|
+**Possible link with EIFF-O**: The concept of *climate change* is part of the vocabulary, and it extends further covering *climate change adaptation* and *climate change mitigation*. The applications (services) in EIFFEL can be tagged with these concepts.|
+|**EUROVOC** |[EuroVoc](https://op.europa.eu/es/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc) is a multilingual, multidisciplinary thesaurus covering the activities of the EU and managed by the Publications Office of the European Union, which moved forward to ontology-based thesaurus management and semantic web technologies conformant to W3C recommendations. The scope of EuroVoc is quite general and not restricted to EO, but it potentially allows to align concepts administratively used by the European Union.
+**Possible link with EIFF-O**: the Thesaurus includes concepts such as *climate change policy* as part of the *environmental policy* concept, *adaptation to climate change* and *UNFCC*.|
+|**AGROVOC** |[AGROVOC](https://www.fao.org/agrovoc/) provides a way to organize knowledge for subsequent data retrieval. It is a structured collection of concepts, terms, definitions and relationships. Concepts represent anything in food and agriculture, such as maize, hunger, aquaculture, value chains or forestry. These concepts are used to unambiguously identify resources, allowing standardized indexing processes, making searching more efficient. Each concept in AGROVOC also has terms used to express it in various languages, so called lexicalizations. Today, AGROVOC consists of +40 300 concepts and +953 000 terms in up to 41 languages. AGROVOC is a relevant thesaurus about food and agriculture, published as linked open data, available for public use.
+**Possible link with EIFF-O**: the Thesaurus includes concepts such as *climate change, climate change adaptation, climate change mitigation*, and *climate models*, among others.|
+|**EARth** |[EARTh](https://vocabularyserver.com/cnr/ml/earth/en/) is a general-purpose thesaurus for the environment, which has been published as a SKOS dataset in the Linked Open Data
+Cloud. It intends to help in indexing and discovery environmental resources by refining and extending GEMET; besides it has been interlinked to popular LOD datasets as AGROVOC, EUROVOC, DBPEDIA and UMTHES.
+**Possible link with EIFF-O**: the Thesaurus includes plenty of concepts related to climate, such as *climate change, adverse climate change, climate damages, climate model*, etc.|
+|**ENVO** (Environmental Ontology)|[ENVO](https://sites.google.com/site/environmentontology/home)  is a big ontology for environmental entities with hundreds of terms and many more imported, it is able to describe concepts such as ecosystems, planets and other environmental processes; thus, it increases the interoperability of environmental descriptions and FAIRness support.
+**Possible link with EIFF-O**: the Thesaurus includes concepts such as *climate change* and *climate system*.
+|
+
 
 <br/><br/>
 
