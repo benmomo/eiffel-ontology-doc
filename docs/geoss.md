@@ -166,10 +166,16 @@ The response of an issued request can be sort by relevancy, title or type. The a
 </div>
 
 
-## Related work
+## Related ontologies and thesauri for the EO field
 <div align="justify">
    
-TBC (projects, ontologies, formats)
+Though there are many ontologies and thesauri for many different purposes, some of them are listed in the following summary Table with more or less relationship with the EO field.
+
+
+|Ontology|Description|
+|---|---|
+|**SWEET** (Semantic Web for Earth Environmental Technology Ontology) |Originally developed by NASA’s JPL, it contains over 6000 concepts organized in various categories. Currently it is governed by the ESIP foundation and can be found on a [GitHub](https://github.com/ESIPFed/sweet)  repository. Top level concepts include Representation (e.g., time, space) and Realm (e.g., Ocean, Land Surface, Terrestrial Hydrosphere, Atmosphere). It has links and influence with *EnvO* (Environmental Ontology).**Possible link with EIFF-O**: concepts from the *ECV taxonomy* specified by GCOS can be mapped to Realm. Spatial and temporal properties from datasets can also be mapped to Representation.|
+
 
 
 <br/><br/>
