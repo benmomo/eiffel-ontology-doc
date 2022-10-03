@@ -350,9 +350,28 @@ The EIFFEL Ontology (EIFF-O) is meant to be a **basic** and **useful** tool to h
 </p>
 
 One can understand the depicted ontology in the following way:
+
 -	A **user**, in a discovery phase, **searches for** 4 main different items: (i) services or applications, (ii) datasets, (iii) providers, and (iv) documents. From the point of view of schema.org, we could either use the Organization or Person concepts here to describe the user.
+
 -	This user can be categorized under a specific **sector**, a concept that derives from the EO ontology/taxonomy, which defines 26 different ones. Related to this concept, to further profile the user, one might add user groups (26) and EO needs (several for groups) from the EO ontology.
+
 -	One of the most interesting items to be searched for are the **applications** themselves, as they represent the highest level of usability beyond simple data. Those are specific services that provide one or more functionalities by using EO data.
+Such application can be easily associated with the *Service* concept from schema.org, as well as the *Application* concept from the EO taxonomy via a *rdfs:subClassOf* property. It can also be linked with the (input and output) *datasets* used and the corresponding provider.
+Furthermore, the application can be further characterized in several ways:
+
+    * It includes a **TargetInfo** concept, which act as wrapper for encapsulating different targets or purposes of the application. A direct link is already specified with the SDG ontology by including the **sdg:Target** concept.
+	* It includes an **eo:Segment** concept, which also acts as wrapper to provide the association with the EO ontology. Note here that the EO taxonomy provides two different perspectives (provider and market view, with **eo:Area** and **eo:Sector** respectively) 
+	* It includes an **EVInfo** concept; once again, this represents a way to include the association with many different **Essential Variables**. By default, the link with the Essential climate Variables is already provided via the **ecv:ECV** concept. Additionally, various links have been already identified to be included as further or future work:
+		-	The **SMURBS** ontology also includes the ECV concept, and extends it to Essential Urban Variables for smart city applications
+		-	The **Essential Agriculture Variables** (EAVs) are specific variables which may be of interest for applications related to Agriculture.
+		-	The **Essential Biodiversity Variables** (EBV) are another domain of significant research in the EO world to be considered.
+
+
+-	**Datasets** are probably the most searched items, as the amount of available data is huge in the EO world, whereas applications per se tend to be local and are not massively published. The concept is already in chema.org; though many fields seem to be reusable, the concept will be probably extended to cover EO aspects. Similar to applications, datasets cover one or more **segments** as well as **essential variables**. Note that in this version of the EIFF-O ontology datasets (and also providers) are not directly linked with the *TargetInfo* concept; this is something to the analysed after its usage, as datasets might potentially fall under many different target categories and therefore the discovery process could guide to more confusion than specificness. 
+
+-	**Providers** are another way to search for data, even if an indirect way, as they are the ones providing datasets, applications or both. Currently this concept supports the linkage with EO segments and EV information. This concept seems to map pretty well with the Organization concept in schema.org.
+
+-	Least but not last, **documents** are another category of data beyond datasets that can provide additional information about datasets and applications. For example, they can be PDF files describing the usage of datasets and applications in different use cases. The concept of document can be extended from the schema.org **DigitalDocument** concept, as some of their fields are really useful.
 
 
 <br/><br/>
