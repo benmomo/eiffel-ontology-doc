@@ -191,6 +191,52 @@ The Thesaurus includes many concepts and are hierarchically organized under 3 to
 </div>
 
 
+## Related projects related to the EO field. Summary analysis
+<div align="justify">
+   
+This section includes a summary analysis and assessment of various research projects related to EO, based on three indicators:
+-	**Semantic support** in the core architecture of the system
+-	Proper **documentation** available to be used by third entities
+-	Proper **software** and **support** available to be used by third entities
+
+These three indicators might range from *None* to *High* and the description of the values are provided below for each of them.
+The Semantic support is assessed with the following values:
+-	**None**: No semantics or almost none (only keyword-based search and unrelated categories provided). Any other possible use of semantics has nothing to do with EO field
+-	**Low**: A useful EO related taxonomy is provided
+-	**Medium**: RDF (or JSON LD) is used to define or characterize entities related to EO aspects
+-	**High**: An ontology is defined and used related to EO aspects
+
+The documentation is evaluated depending on the availability and updatability/recentness of the documentation related to the used semantics:
+-	**None**: no documentation or almost none
+-	**Low**: static (old) documentation; no updates
+-	**Medium**: Documentation available and updated from time to time, but difficult to find (no central place)
+-	**High**: online documentation updated in a central location (e.g., readthedocs)
+
+Another aspect to consider is the availability of software and related support:
+-	**None**: no software available to be used 
+-	**Low**: software available, but not open or very limited in its usage
+-	**Medium**: Open software available, but no current update nor support
+-	**High**: Updated software and open source (e.g., GitHub) 
+
+The overall rating is then taken as the average of the previous 3 assessment indicators.
+
+
+
+|Project|Semantic support|Documentation|Available software & support|Overall rating|
+|---|---||---|---||---|
+|**EDGE**|None|Low|Medium|Low|
+|**NextGEOSS**|None|Low|Medium|Low|
+|**GEOCRADLE**|None|Low|Low|Low|
+|**Copub.AC**|Low|Low|None|Low|
+|**EO4GEO**|Low|Low|Medium|Low|
+|**Copernicus App Lab**|High|Low|Low|Medium|
+|**SMURBS**|High|Low|None|Low|
+
+
+
+<br/><br/>
+
+</div>
    
 
 
