@@ -343,7 +343,16 @@ The alignment is summarized in the table below.
 ## EIFF-O
 <div align="justify">
    
-TBC 
+The EIFFEL Ontology (EIFF-O) is meant to be a **basic** and **useful** tool to help in the **discovery** of services and datasets from EO users. It basically includes few concepts that can be easily linked with **previous ontologies** described before (**EO, SDG, ECV**) and should serve as a starting point to further increase relationships with other potential ontologies or some of their concepts, considering the wide spectrum of EO data. An overview of the ontology is depicted in Figure 33, where the main concepts are related with the previous ontologies and, at the same time, are associated with already existing concepts (data structures) from **schema.org**, depicted somehow in brown boxes.
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_ontology.jpg" alt="EIFF-O" align="center" />
+</p>
+
+One can understand the depicted ontology in the following way:
+-	A **user**, in a discovery phase, **searches for** 4 main different items: (i) services or applications, (ii) datasets, (iii) providers, and (iv) documents. From the point of view of schema.org, we could either use the Organization or Person concepts here to describe the user.
+-	This user can be categorized under a specific **sector**, a concept that derives from the EO ontology/taxonomy, which defines 26 different ones. Related to this concept, to further profile the user, one might add user groups (26) and EO needs (several for groups) from the EO ontology.
+-	One of the most interesting items to be searched for are the **applications** themselves, as they represent the highest level of usability beyond simple data. Those are specific services that provide one or more functionalities by using EO data.
 
 
 <br/><br/>
