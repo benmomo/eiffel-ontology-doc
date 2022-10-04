@@ -68,8 +68,29 @@ Technically, the front-end open ports **HTTP 80** and **HTTPS 443**. The non-sec
 
 ## Ontology viewer
 <div align="justify">
-   
-TBC 
+
+ The ontology viewer is based on [WebOWL](http://vowl.visualdataweb.org/webvowl.html), which is a web application that allows to display ontologies in an interactive way. Basically, OWL files need to be **converted** first into JSON files, which are later **displayed** on the browser as a **force-directed graph**. This converter (OWL2VOWL) is also part of the released software.
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_ontology_viewer_1.jpg" alt="Ontology viewer UI" align="center" />
+</p>
+
+The user interface is depicted in the previous Figure, with three main parts:
+
+-	Most of the screen is devoted to **visualizing** the different entities in form of a graph. This area supports zoom in/out functions to restrict the visualization to a certain concept, in case the ontology (and the resulting graph) is big. 
+The graph also allows to move any of the concepts from one place to another with the mouse in order to better visualize the graph. 
+
+-	On the **right side**, there is some **useful information about the loaded ontology**: (i) a basic description of the specific loaded ontology, (ii) some metadata about it, such as date, creator, rights, language, title, etc.
+
+-	On the bottom, there are some **useful tools**:
+
+	- Through the **Ontology item** one might select which ontology to load (currently we have 4 different ontologies: SDG, ECV, EO and EIFF-O). In general, it is possible to load any ontology as long as the IRI (URL for the ontology) is provided. For simplicity, we have already restricted the choice for the four ones. Besides, this is an example of ontology tools that does not support HTTPS when accessing the OWL file.
+	- The **search text area** allows to automatically locate a particular concept in the graph with some **additional help** (the app indexes concepts and properties and suggests/displays the most likely ones as the user types some text). 
+	- The **Export tool** allows to export the displayed ontology in various output formats (e.g., JSON, SVG) 
+	- The **Filter item** is related to the way entities (concepts) and properties are displayed in the visualization area. The same applies for the **Options** item.
+
+Note that this viewer is not intended for editing purposes. For such purpose, it is recommended to use some specific editor for ontology files, such as [Protege](https://protege.stanford.edu/). This is the one that has been used in this project.
+
 
 
 <br/><br/>
