@@ -80,7 +80,7 @@ The user interface is depicted in the previous Figure, with three main parts:
 -	Most of the screen is devoted to **visualizing** the different entities in form of a graph. This area supports zoom in/out functions to restrict the visualization to a certain concept, in case the ontology (and the resulting graph) is big. 
 The graph also allows to move any of the concepts from one place to another with the mouse in order to better visualize the graph. 
 
--	On the **right side**, there is some **useful information about the loaded ontology**: (i) a basic description of the specific loaded ontology, (ii) some metadata about it, such as date, creator, rights, language, title, etc.
+-	On the **right side**, there is some **useful information about the loaded ontology**: (i) a basic description of the specific loaded ontology, (ii) some metadata about it, such as date, creator, rights, language, title, etc., and (iii) some statistics about the graph/ontology.
 
 -	On the bottom, there are some **useful tools**:
 
