@@ -45,12 +45,22 @@ The architecture of the EIFF-O module is envisioned to be highly modular and dis
 <br/><br/>
 
 
-## Installation
+## EIFF-O Front-End
 <div align="justify">
 
-TBC
+The front-end is basically a web server (Apache) acting as proxy with a set of web page that gives access to all services related to the EIFFEL ontology, as depicted in the Figure below:
 
+-	By clicking on the **ontology** icon/link, the user will be redirected to the Ontology view, which has its own UI  
+-	The **documentation** link provides access to an online documentation portal
+-	The **code repository** icon links directly to the public GitHub repository.
+-	The **API Swagger** provides access to the REST API with its own interface
+-	The **test and examples** icon is meant to provide some usage examples
 
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_front_end_gui.jpg" alt="EIFF-O front-end UI" align="center" />
+</p>
+
+Technically, the front-end open ports **HTTP 80** and **HTTPS 443**. The non-secure access allows for retrieving the ontology files, which are also stored as OWL/TTL files, as some ontology-related programs currently in the community do not support HTTPS.
 <br/><br/>
 
 </div>
