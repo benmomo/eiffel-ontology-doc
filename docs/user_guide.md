@@ -118,7 +118,7 @@ The REST API provided as a backend service allows to retrieve information about 
 The developed REST API includes a **Swagger interface** where a user/developer is able to see and test the different functions. The Swagger API supports **HTTPS** and **authorization** to provide the highest level of security. The front-end acts as secure proxy to access it.
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_ontology_viewer_1.jpg" alt="Ontology viewer UI" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/rest_api_ecv.jpg" alt="REST API - ECV" align="center" />
 </p>
 
 The **ECV REST API** (see previous Figure) allows to retrieve a list of all instances from the various concepts in the ontology (data sources, domains, ECVs, products, product requirements, scientific areas and stewards). The API can be either requested via the Swagger interface or through another similar API tool such as [Postman](https://www.postman.com/). The Table below shows the result for one ECV and its related information, from the whole array of ECVs. You can see the different fields and, at the same time, the corresponding **class** and the **individual/instance** from the ontology is provided, which might help in further queries using SPARQL.
@@ -157,7 +157,7 @@ The **ECV REST API** (see previous Figure) allows to retrieve a list of all inst
             "oClass": "http://purl.org/eiffo/ecv#Domain",
             "oInstance": "http://purl.org/eiffo/ecv#BiosphereDomain1"
         },
-        "ecvDescription": "Land cover is the observed (bio)-physical cover on the Earth’s surface. It influences climate by modifying water and energy exchanges with the atmosphere and by changing greenhouse gas and aerosol sources and sinks. Land-cover conditions are inherently dynamic (i.e. seasonality) and distributions are linked to regional climatic conditions, so changes in cover can be due to climate change on a regional scale as well as directly due to human activities",
+        "ecvDescription": "Land cover is the observed (bio)-physical cover on the Earth surface. It influences climate by modifying water and energy exchanges with the atmosphere and by changing greenhouse gas and aerosol sources and sinks. Land-cover conditions are inherently dynamic (i.e. seasonality) and distributions are linked to regional climatic conditions, so changes in cover can be due to climate change on a regional scale as well as directly due to human activities",
         "ecvFactSheetLink": "https://ane4bf-datap1.s3.eu-west-1.amazonaws.com/wmod8_climatedata/s3fs-public/biomass_ecv_factsheet_201905.pdf?UIj2pnLviZJQEYAmaNuHOB3_fWsMjQoS",
         "ecvIconLink": "https://ane4bf-datat.s3.eu-west-1.amazonaws.com/wmod8_climatedata/s3fs-public/ico-bio-above-ground-biomass_hover.png?9_9apKhjAgL8jiCQ0E29_w1uo_u7tE1V=",
         "ecvName": "Above-ground Biomass",
