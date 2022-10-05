@@ -223,6 +223,30 @@ The Table below shows the result for one *Target* and its related information, f
     
 ```
 
+The **EO REST API** allows to get instances related to the EO taxonomy: the different views (market view and thematic view) and their associated concepts and instances: markets, sectors, areas and domains. It also includes a list of EO services, EO needs and user groups, as well as links with Copernicus services (see Figure below).
+
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/rest_api_eo.jpg" alt="REST API - EO" align="center" />
+</p>
+
+The Table below shows the result for one EO service and its related information, from the whole array of EO services, together with the different fields and, at the same time, the corresponding **class** and the **individual/instance** from the ontology.
+
+```
+[
+    {
+        "area": [
+            "http://purl.org/eiffo/eotaxonomy#AtmosphereArea"
+        ],
+        "description": "Pollution and greenhouse gas emission monitoring. Measuring atmospheric concentrations and characterizing the micrometeorology or using atmospheric dispersion models to back-calculate the emission rates that gave the concentrations observed. Air quality/pollution source maps (CH4, CO2, NO2 & SO2, Particulate Matter, maps of average pollutant flux PM2.5, PM10).",
+        "oClass": "http://purl.org/eiffo/eotaxonomy#EOService",
+        "oInstance": "http://purl.org/eiffo/eotaxonomy#EOService_001",
+        "relatedAction": "Monitor the atmosphere",
+        "type": "Monitor and forecast air quality & emissions (fluxes)"
+    },
+```
+
+Finally, note that the API is intended to **read data, not to write or edit** it. Editing ontologies and adding new instances is not foreseen for this REST API. Considering this aspect, the Docker container that includes this API service, can be configured to load (cache) all information in memory and therefore provide a **much faster response**. Typically, the API hiddens in the background access to the SPARQL server - traditional and most reliable way to ensure consistency -. As long as the content remains static (or pseudo static), ontologies can be loaded in memory from the REST API to provide a faster response. 
 
 <br/><br/>
 
