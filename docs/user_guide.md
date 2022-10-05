@@ -246,7 +246,7 @@ The Table below shows the result for one EO service and its related information,
     },
 ```
 
-Finally, note that the API is intended to **read data, not to write or edit** it. Editing ontologies and adding new instances is not foreseen for this REST API. Considering this aspect, the Docker container that includes this API service, can be configured to load (cache) all information in memory and therefore provide a **much faster response**. Typically, the API hiddens in the background access to the SPARQL server - traditional and most reliable way to ensure consistency -. As long as the content remains static (or pseudo static), ontologies can be loaded in memory from the REST API to provide a faster response. 
+Finally, note that the API is intended to **read data, not to write or edit** it. Editing ontologies and adding new instances is not foreseen for this REST API. Considering this aspect, the Docker container that includes this API service, can be configured to load (cache) all information in memory and therefore provide a **much faster response**. Typically, the API hides in the background access to the SPARQL server - traditional and most reliable way to ensure consistency -. As long as the content remains static (or pseudo static), ontologies can be loaded in memory from the REST API to provide a faster response. 
 
 <br/><br/>
 
@@ -262,7 +262,42 @@ Finally, note that the API is intended to **read data, not to write or edit** it
 ## SPARQL endpoint
 <div align="justify">
    
-TBC 
+The SPARQL server is based on [Apache Jena Fuseki](https://jena.apache.org/documentation/fuseki2/), which provides support for [SPARQL 1.1](http://www.w3.org/TR/sparql11-protocol/) protocol (query and update) and [Graph Store](http://www.w3.org/TR/sparql11-http-rdf-update/) protocol.   
+The application, developed and deployed as a Java WAR file contains not only a SPARQL API and server, but also a UI for admin purposes.
+You can access it with your browser through the front-end proxy, but access should be blocked from the outside with a firewall. Anyway, authentication is required (see Figure below).
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_fuseki_1.jpg" alt="EIFFO Fuseki - login" align="center" />
+</p>
+
+After authentication, you should be able to see a dataset called eiffel (see Figure below), which already includes the four ontologies and associated files that have been loaded. There are various actions that can be performed:
+
+-	On the **top right corner**, a green flag indicates the **server status** (active)
+-	On the **top menu**, one can: (i) **query datasets** via SPARQL, and (ii) **manage datasets** by adding new ones. As we are dealing only with the four ontologies explained in previous chapters, no new ones are needed. However, it could be possible to (i) load new ones for your own purposes or (ii) update the current ontologies if there is an update in any of the EIFFEL ontologies.
+-	For the given datasets (currently only eiffel), you can **query**, **add new data** or display some **info**, such as available services (endpoints), statistics and dataset size (e.g., the *eiffel* dataset includes 20916 triples).
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_fuseki_2.jpg" alt="EIFFO Fuseki - main window" align="center" />
+</p>
+
+For doing some tests, the admin will typically use the *Query* functionality, where one can make SPARQL queries and see the result.
+In the following Figure a basic example is shown for the ECV ontology. First, there is a common practice to load different prefixes that will help identifying concepts from different ontologies:
+
+-	There are some common prefixes, such as *owl, skos,rdfs*
+-	There are some specific prefixes, such as ecv (as well as ':' and base). It is highly recommendable to use **persistent URLs** to locate ontologies, therefore we have used the **PURL** service, which is an initiative of the [Internet Archive](http://archive.org/). 
+
+After the declaration of prefixes, one may include the proper SPARQL syntax: in the example, we are interested in all RDF triples which are subclasses of the **Domain** concept from the ECV ontology. In order not to get all properties, we are filtering only the labels.
+On the text area below one can see the result in form of a table with the three domains specified in the ECV taxonomy: *Land, Atmosphere and Ocean*. 
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_fuseki_3.jpg" alt="EIFFO Fuseki - query window" align="center" />
+</p>
+
+The raw response in JSON format can also be obtained and is shown for clarification in the Figure below. This is the format that developers will work with when interacting with the SPARQL API.
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_fuseki_4.jpg" alt="EIFFO Fuseki - JSON response" align="center" />
+</p>
 
 
 <br/><br/>
