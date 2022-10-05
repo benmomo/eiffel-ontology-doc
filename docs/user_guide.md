@@ -106,10 +106,89 @@ Note that this viewer is not intended for editing purposes. For such purpose, it
 
 
 
-## API
+## REST API
 <div align="justify">
    
-TBC 
+The REST API provided as a backend service allows to retrieve information about the different ontologies included in the project. There are three main aspects to consider here:
+
+- Through the SPARQL interface (see next section) it is possible to obtain all information from the ontologies, as basically all information is included in the OWL/TTL files. The usage of REST APIs allows a **simpler way** of retrieving information for users and developers who are not familiar with SPARQL interfaces and do not intend to perform any semantic reasoning operation
+- The REST API is basically intended to provide information about the **instances** available in the developed ontologies. This implies that ontologies without elements/instances are not currently accessible through the REST API. Currently **ECV, SDG and EO** ontologies do include instances, whereas the EIFF-O ontology does not. For example, datasets that are harvested from the GEO DAB are stored in an independent repository and are not instantiated as instances within the EIFF-O ontology. Therefore, no REST interface is currently available for the EIFF-O ontology.
+- The main link between the ontology and other EIFFEL tasks is expected to be through some **tagging functionality** that allows to include additional metadata related to the ontologies (specific terms from their vocabularies). Here, the REST API is expected to provide **support** in this way. This support might evolve through the project depending on: (i) the evolution of tasks T3.3 and T3.4, which last longer than task T3.2, and (ii) the evolution of the pilots and the best way to include semantic tags. 	 
+
+The developed REST API includes a **Swagger interface** where a user/developer is able to see and test the different functions. The Swagger API supports **HTTPS** and **authorization** to provide the highest level of security. The front-end acts as secure proxy to access it.
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_ontology_viewer_1.jpg" alt="Ontology viewer UI" align="center" />
+</p>
+
+The **ECV REST API** (see previous Figure) allows to retrieve a list of all instances from the various concepts in the ontology (data sources, domains, ECVs, products, product requirements, scientific areas and stewards). The API can be either requested via the Swagger interface or through another similar API tool such as [Postman](https://www.postman.com/). The Table below shows the result for one ECV and its related information, from the whole array of ECVs. You can see the different fields and, at the same time, the corresponding **class** and the **individual/instance** from the ontology is provided, which might help in further queries using SPARQL.
+
+```
+ {
+        "dataSource": [
+            {
+                "dsLink": "http://www.globbiomass.org/",
+                "dsName": "ESA-Globbiomass",
+                "oClass": "http://purl.org/eiffo/ecv#DataSource",
+                "oInstance": "http://purl.org/eiffo/ecv#DS_081"
+            },
+            {
+                "dsLink": "lucid.wur.nl",
+                "dsName": "GEOCARBON",
+                "oClass": "http://purl.org/eiffo/ecv#DataSource",
+                "oInstance": "http://purl.org/eiffo/ecv#DS_082"
+            },
+            {
+                "dsLink": "https://www.globalforestwatch.org/",
+                "dsName": "WRI Global Forest Watch",
+                "oClass": "http://purl.org/eiffo/ecv#DataSource",
+                "oInstance": "http://purl.org/eiffo/ecv#DS_083"
+            },
+            {
+                "dsLink": "https://fluxnet.ornl.gov/fluxnetdb",
+                "dsName": "FLUXNET",
+                "oClass": "http://purl.org/eiffo/ecv#DataSource",
+                "oInstance": "http://purl.org/eiffo/ecv#DS_084"
+            }
+        ],
+        "domain": {
+            "domainLevel": 2,
+            "domainName": "Biosphere",
+            "oClass": "http://purl.org/eiffo/ecv#Domain",
+            "oInstance": "http://purl.org/eiffo/ecv#BiosphereDomain1"
+        },
+        "ecvDescription": "Land cover is the observed (bio)-physical cover on the Earth’s surface. It influences climate by modifying water and energy exchanges with the atmosphere and by changing greenhouse gas and aerosol sources and sinks. Land-cover conditions are inherently dynamic (i.e. seasonality) and distributions are linked to regional climatic conditions, so changes in cover can be due to climate change on a regional scale as well as directly due to human activities",
+        "ecvFactSheetLink": "https://ane4bf-datap1.s3.eu-west-1.amazonaws.com/wmod8_climatedata/s3fs-public/biomass_ecv_factsheet_201905.pdf?UIj2pnLviZJQEYAmaNuHOB3_fWsMjQoS",
+        "ecvIconLink": "https://ane4bf-datat.s3.eu-west-1.amazonaws.com/wmod8_climatedata/s3fs-public/ico-bio-above-ground-biomass_hover.png?9_9apKhjAgL8jiCQ0E29_w1uo_u7tE1V=",
+        "ecvName": "Above-ground Biomass",
+        "ecvSteward": [
+            {
+                "oClass": "http://purl.org/eiffo/ecv#ECVSteward",
+                "oInstance": "http://purl.org/eiffo/ecv#ECVSteward_21",
+                "stewardAffiliation": "GOFC-GOLD, Wageningen University, Netherlands",
+                "stewardName": "Martin Herold"
+            },
+            {
+                "oClass": "http://purl.org/eiffo/ecv#ECVSteward",
+                "oInstance": "http://purl.org/eiffo/ecv#ECVSteward_22",
+                "stewardAffiliation": "Jet Propulsion Laboratory California Institute of Technology, US",
+                "stewardName": "Sassan Saatchi"
+            }
+        ],
+        "oClass": "http://purl.org/eiffo/ecv#ECV",
+        "oInstance": "http://purl.org/eiffo/ecv#AboveGroundBiomassECV1",
+        "product": [
+            {
+                "oClass": "http://purl.org/eiffo/ecv#ECVProduct",
+                "oInstance": "http://purl.org/eiffo/ecv#ECVProduct_073",
+                "productDefinition": "Mass of live and/or dead organic matter in terrestrial vegetation.",
+                "productName": "Maps of aboveground biomass"
+            }
+        ]
+    },
+...
+}
+```
 
 
 <br/><br/>
