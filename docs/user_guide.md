@@ -121,7 +121,7 @@ The developed REST API includes a **Swagger interface** where a user/developer i
 <img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/rest_api_ecv.jpg" alt="REST API - ECV" align="center" />
 </p>
 
-The **ECV REST API** (see previous Figure) allows to retrieve a list of all instances from the various concepts in the ontology (data sources, domains, ECVs, products, product requirements, scientific areas and stewards). The API can be either requested via the Swagger interface or through another similar API tool such as [Postman](https://www.postman.com/). The Table below shows the result for one ECV and its related information, from the whole array of ECVs. You can see the different fields and, at the same time, the corresponding **class** and the **individual/instance** from the ontology is provided, which might help in further queries using SPARQL.
+The **ECV REST API** (see previous Figure) allows to retrieve a list of all instances from the various concepts in the ontology (data sources, domains, ECVs, products, product requirements, scientific areas and stewards). The API can be either requested via the Swagger interface or through another similar API tool such as [Postman](https://www.postman.com/). The Table below shows the result for one *ECV* and its related information, from the whole array of ECVs. You can see the different fields and, at the same time, the corresponding **class** and the **individual/instance** from the ontology is provided, which might help in further queries using SPARQL.
 
 ```
  {
@@ -188,6 +188,39 @@ The **ECV REST API** (see previous Figure) allows to retrieve a list of all inst
     },
 ...
 }
+```
+
+The **SDG REST API** (see Figure below) allows to retrieve all instances from the SDG concepts: goals, targets, indicators and series.
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/rest_api_sdg.jpg" alt="REST API - SDG" align="center" />
+</p>
+
+The Table below shows the result for one *Target* and its related information, from the whole array of targets. Once again, you can see the different fields and, at the same time, the corresponding **class** and the **individual/instance** from the ontology.
+
+```
+[
+    {
+        "inScheme": "http://metadata.un.org/sdg",
+        "indicator": [
+            "http://metadata.un.org/sdg/C010101"
+        ],
+        "isTargetOf": "http://metadata.un.org/sdg/1",
+        "note": "Target 1.1",
+        "oClass": "http://metadata.un.org/sdg/ontology#Target",
+        "oInstance": "http://metadata.un.org/sdg/1.1",
+        "prefLabel": "By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day",
+        "sdgCode": "1.1",
+        "subject": [
+            "http://eurovoc.europa.eu/2062",
+            "http://eurovoc.europa.eu/6781",
+            "http://metadata.un.org/thesaurus/1000544",
+            "http://metadata.un.org/thesaurus/1006166"
+        ]
+    },
+...
+}    
+    
 ```
 
 
