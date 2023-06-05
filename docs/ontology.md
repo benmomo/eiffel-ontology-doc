@@ -40,7 +40,7 @@ Classes are collection of **concepts with similar properties** within the design
 Note that the hierarchy (or hierarchies) of classes is not strict and can overlap in some way, this is not a problem from the point of view of knowledge. A class can have more than one parent class if this really makes sense in the designated domain for our application. 
 
 
-**The fifth step defines the properties (slots) for each class**. The internal structure of a class is determined by its **properties or attributes**. Most of them should come from step 3, from which we can take the remaining terms (not classes) and accommodate them in each class. The properties can be further divided into:
+**The fifth step defines the properties (slots) for each class**. Those properties can be **data properties** or ** object properties**. Most of them should come from step 3, from which we can take the remaining terms (not classes) and accommodate them in each class. The properties can be further divided into:
 - *Intrinsic*: those properties that are specific to that class
 - *Extrinsic*: those properties that are more general to other classes (e.g., name, location)
 - Relationships with other classes (individuals) 
@@ -93,6 +93,8 @@ In summary, there are **54 ECVs** split among these 10 second-level domains as o
 
 While inserting the 54 ECV individuals in the ontology the name has been respected and kept from GCOS. Moreover, links to official icon and PDF factsheet has also been included as part of the properties of each ECV.
 
+*Note: Automatic documentation has been generated via the OWL Doc Protege plugin and is available [here](https://eiffo.satrdlab.upv.es/owl-doc/ecv/)*
+
 <br/><br/>
 
 </div>   
@@ -134,6 +136,8 @@ The **SDG taxonomy** defines the different individuals for the different classes
 -	Matches with SDG goals in [Wikidata](https://www.wikidata.org/wiki/Q7649586) 
 
 
+*Note: Automatic documentation has been generated via the OWL Doc Protege plugin and is available [here](https://eiffo.satrdlab.upv.es/owl-doc/sdg/)*
+
 <br/><br/>
 
 </div>
@@ -150,6 +154,7 @@ The **SDG taxonomy** defines the different individuals for the different classes
    
 *Note: The information presented here is extracted or summarized from deliverable D4.3 - Assessment of Copernicus Uptake (Update of the user-oriented taxonomy) of the CopHub.AC H2020 project (Copernicus Academy Hub for Knowledge, Innovation and Outreach).*
 
+*Note2: Automatic documentation has been generated via the OWL Doc Protege plugin and is available [here](https://eiffo.satrdlab.upv.es/owl-doc/eo/)*
 
 </div>   
 
@@ -208,6 +213,8 @@ During the update of the EO taxonomy, EARSC also studied other structures, taxon
 -	**Commercial service providers**
 -	**H2020 projects**: such as NextGEOSS and e-shape. NextGEOSS provides [13 thematic areas](https://catalogue.nextgeoss.eu/thematic-areas).  The [e-shape project](https://e-shape.eu/ ) covers 7 thematic areas (agriculture, health, renewable energy, ecosystem, water, disasters and climate) aligned with UN Sustainable Development Goals (SDGs) and GEO SBAs. By using the EO taxonomy, one may link and expand the E-SHAPE pilots, currently presented in SDG silos, to a (potential) user community.
 -	**ENVRI community**:  the community of [Environmental Research Infrastructures](https://envri.eu/research-infrastructures/ ), projects, networks and other diverse stakeholders  basically defines 4 main domains (atmospheric, marine, solid earth and biosphere).
+
+
 
 <br/><br/>
 
@@ -373,6 +380,8 @@ Furthermore, the application can be further characterized in several ways:
 
 -	Least but not last, **documents** are another category of data beyond datasets that can provide additional information about datasets and applications. For example, they can be PDF files describing the usage of datasets and applications in different use cases. The concept of document can be extended from the schema.org **DigitalDocument** concept, as some of their fields are really useful.
 
+
+*Note: Automatic documentation has been generated via the OWL Doc Protege plugin and is available [here](https://eiffo.satrdlab.upv.es/owl-doc/eiffo/)*
 
 <br/><br/>
 
