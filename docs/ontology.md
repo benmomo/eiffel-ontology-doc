@@ -73,7 +73,7 @@ Bear in mind that this is an iterative process that repeats as long as you want;
 The ECV ontology has been created following the current online information provided by GCOS. It has been a **hard and tedious work** because there is **no repository of structured data** to extract the information automatically, and the information given in form of **PDF fact sheets** were ported manually as individuals of the ontology. The structure of the ECV ontology is depicted in the Figure below.    
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/ecv_ontology.jpg" alt="ECV Ontology" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/ecv_ontology2.jpg" alt="ECV Ontology" align="center" />
 </p>
 
 This ontology is focussed on **ECVs (Essential Climate Variables)**, which are the main entities and whose properties relate to other entities:
@@ -126,7 +126,7 @@ The general process is depicted in the Figure below and considers three main use
 The **SDG ontology** is the core part and implements the structure of the SDG goal-target-indicator-series hierarchy, as depicted in the Figure below. The ontology by itself it pretty simple and straightforward, and uses the SKOS core vocabulary, which is a widely used W3C standard employed by taxonomies and thesauri. The formal list of classes, properties and data types can be found in the [official website](http://metadata.un.org/sdg/ontology?lang=en).
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/sdg_ontology.jpg" alt="SDG ontology" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/sdg_ontology2.jpg" alt="SDG ontology" align="center" />
 </p>
 
 The **SDG taxonomy** defines the different individuals for the different classes (goal, target, indicator, series). Moreover, it includes mappings (via *skos:exactMatch property*) to external vocabularies:
@@ -226,7 +226,7 @@ During the update of the EO taxonomy, EARSC also studied other structures, taxon
 The market view provides a tool to help classify and understand the markets for EO services as well as to define the type of customer. The representation of market stakeholders in the use of value-added services and applications is illustrated in the Figure below, and it focuses on user needs and the use of Earth observation from the users' point of view.
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_marketView.jpg" alt="EO ontology (market view)" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_marketView2.jpg" alt="EO ontology (market view)" align="center" />
 </p>
 
 A descriptive table is provided for each leaf/sector, but we will show just one example for environmental and climate in the table below
@@ -275,7 +275,7 @@ It must be noted that within both the service provider and user communities the 
 The Figure below represents the upgraded taxonomy with the Thematic (Supplier) perspective
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_providerView.jpg" alt="EO ontology (provider view)" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_providerView2.jpg" alt="EO ontology (provider view)" align="center" />
 </p>
 
 For each specific domain (level 1), specific set of actions (verbs) are identified for each of the thematic areas (level 2). For example, for the **atmosphere and climate change**, we have the following description:
@@ -341,6 +341,8 @@ The alignment is summarized in the table below.
 |Safety & security EO services | Copernicus security service(s)  | - crisis prevention, preparedness and response <br/> - Border surveillance <br/> - Maritime surveillance <br/> - Support to EU External Action <br/>  |
 
 
+
+*Note: Automatic documentation has been generated via the OWL Doc Protege plugin and is available [here](https://eiffo.satrdlab.upv.es/owl-doc/eo/)*
 
 <br/><br/>
 
