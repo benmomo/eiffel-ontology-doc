@@ -40,6 +40,8 @@ The architecture of the EIFF-O module is envisioned to be highly modular and dis
 <img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/dockerisation.jpg" alt="EIFF-O Dockerisation" align="center" />
 </p>
 
+*Note: There has been an update and now there is an additional backend Docker instance including a tagging demo tool*
+
 
 </div>
 <br/><br/>
@@ -255,7 +257,60 @@ Finally, note that the API is intended to **read data, not to write or edit** it
 
 <br/><br/>
 
+## Tagging Tool
+<div align="justify">
 
+The tagging tool is just a basic demo to show how semantic concepts can be added to EO datasets. It is implemented as a Vue application. 
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag1.jpg" alt="Tag landing page" align="center" />
+</p>
+
+The first step after entering the app is to enter the ID of the dataset. Two examples are provided:
+
+- 	One is a sample ID from dataset available in the GEOSS DAB (broker)
+-  	The other is a sample ID from a dataset available in the Cognitive Search Engine developed in the EIFFEL project
+
+For demo purposes, the app uses the API of the GEOSS DAB to avoid setting any credential.
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag2.jpg" alt="Tag tag option" align="center" />
+</p>
+
+Once the ID is entered, one can either see the metadata of the dataset or start setting EIFF-O tags. By clicking on the second button, an empty table is displayed, as no semantic concept is available (yet) for this dataset
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag3.jpg" alt="Tag empty table" align="center" />
+</p>
+
+By clicking on the **Add a new Concept**, a new form appears where you will have to select one of the third ontologies (SDG, EO, ECV). After that, you are given a tree structure where you can navigate to find the concept. 
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag4.jpg" alt="Tag search concept" align="center" />
+</p>
+
+As the tree can be quite large, you can also search by word to speed up the search (only the branches containing this word in any of their elements will be displayed).
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag5.jpg" alt="Tag search by word" align="center" />
+</p>
+
+You can use any of the concepts from the tree structure, in the case below (ECV) from first-level domain (Atmosphere) to ECV Product (Estimates of liquid and solid precipitation). By clicking with your mouse on any of them, a *SAVE* option will appear at the top right corner.
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag6.jpg" alt="Tag save option" align="center" />
+
+After pressing the *SAVE* option, the concept is entered in the table. You can add new concepts, delete concepts and see the resulting JSON format (this is what will be added as semantic metadata in GEOSS datasets).
+
+<p align="center">
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag7.jpg" alt="Tag filled table" align="center" />
+
+
+</p>
+
+<br/><br/>
+
+</div>
 
 
 
