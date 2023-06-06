@@ -355,7 +355,7 @@ The alignment is summarized in the table below.
 The EIFFEL Ontology (EIFF-O) is meant to be a **basic** and **useful** tool to help in the **discovery** of services and datasets from EO users. It basically includes few concepts that can be easily linked with **previous ontologies** described before (**EO, SDG, ECV**) and should serve as a starting point to further increase relationships with other potential ontologies or some of their concepts, considering the wide spectrum of EO data. An overview of the ontology is depicted in Figure 33, where the main concepts are related with the previous ontologies and, at the same time, are associated with already existing concepts (data structures) from **schema.org**, depicted somehow in brown boxes.
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_ontology.jpg" alt="EIFF-O" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_ontology2.jpg" alt="EIFF-O" align="center" />
 </p>
 
 One can understand the depicted ontology in the following way:
