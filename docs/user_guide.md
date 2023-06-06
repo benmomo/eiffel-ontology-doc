@@ -56,10 +56,10 @@ The front-end is basically a web server (Apache) acting as proxy with a set of w
 -	The **documentation** link provides access to an online documentation portal
 -	The **code repository** icon links directly to the public GitHub repository.
 -	The **API Swagger** provides access to the REST API with its own interface
--	The **test and examples** icon is meant to provide some usage examples
+-	The **Tagging examples** icon provides a demo tool for tagging datasets with semantic concepts
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_front_end_gui.jpg" alt="EIFF-O front-end UI" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eiffo_front_end_gui2.jpg" alt="EIFF-O front-end UI" align="center" />
 </p>
 
 Technically, the front-end open ports **HTTP 80** and **HTTPS 443**. The non-secure access allows for retrieving the ontology files, which are also stored as OWL/TTL files, as some ontology-related programs currently in the community do not support HTTPS.
