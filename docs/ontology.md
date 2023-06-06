@@ -126,7 +126,7 @@ The general process is depicted in the Figure below and considers three main use
 The **SDG ontology** is the core part and implements the structure of the SDG goal-target-indicator-series hierarchy, as depicted in the Figure below. The ontology by itself it pretty simple and straightforward, and uses the SKOS core vocabulary, which is a widely used W3C standard employed by taxonomies and thesauri. The formal list of classes, properties and data types can be found in the [official website](http://metadata.un.org/sdg/ontology?lang=en).
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/sdg_ontology2.jpg" alt="SDG ontology" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/sdg_ontology3.jpg" alt="SDG ontology" align="center" />
 </p>
 
 The **SDG taxonomy** defines the different individuals for the different classes (goal, target, indicator, series). Moreover, it includes mappings (via *skos:exactMatch property*) to external vocabularies:
@@ -226,7 +226,7 @@ During the update of the EO taxonomy, EARSC also studied other structures, taxon
 The market view provides a tool to help classify and understand the markets for EO services as well as to define the type of customer. The representation of market stakeholders in the use of value-added services and applications is illustrated in the Figure below, and it focuses on user needs and the use of Earth observation from the users' point of view.
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_marketView2.jpg" alt="EO ontology (market view)" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_marketView.jpg" alt="EO ontology (market view)" align="center" />
 </p>
 
 A descriptive table is provided for each leaf/sector, but we will show just one example for environmental and climate in the table below
@@ -242,7 +242,7 @@ The **market view** is depicted in the Figure below. The basic overall concept i
 The MarketView is also defined by the different operations or needs that the user might have. This is represented by the **UserNeed** class. EARSC defines (in its latest version) 6 main needs, as depicted in the Figure below. These six needs are also mapped to another simple DIKW categories. Basically, both are ways of characterizing the user need and the added value that is to be provided (e.g., an 'assessment need' will provide more added value than a 'detection need', and will probably imply a more complex service deployment in terms of software and/or hardware).
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_market_view.png" alt="EO ontology (market view)" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_market_view2.jpg" alt="EO ontology (market view)" align="center" />
 </p>
 
 Each market individual is composed of one or several Sectors, represented by the **Sector** class. It is a way of further reducing the scope the better define the target segment. EARSC defines 26 sectors (26 Sector individuals) in its latest version.  
@@ -275,7 +275,7 @@ It must be noted that within both the service provider and user communities the 
 The Figure below represents the upgraded taxonomy with the Thematic (Supplier) perspective
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_providerView2.jpg" alt="EO ontology (provider view)" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_ontology_providerView.jpg" alt="EO ontology (provider view)" align="center" />
 </p>
 
 For each specific domain (level 1), specific set of actions (verbs) are identified for each of the thematic areas (level 2). For example, for the **atmosphere and climate change**, we have the following description:
@@ -298,7 +298,7 @@ The **provider view** is depicted in the Figure below. One might find similariti
 -    Domains are decomposed into **Areas**, which is the second level of segmentation, and EARSC defines *31 individuals*. It is equivalent to the Sector class in the market view. 
 
 <p align="center">
-<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_provider_view.png" alt="EO ontology (provider view)" align="center" />
+<img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/eo_provider_view2.jpg" alt="EO ontology (provider view)" align="center" />
 </p>
 
 The **EOService** class represents the third level of segmentation according to EARSC, and it is a high-level and general representation of a service using EO data. Currently EARSC defines more than 80 services for the different areas. In order to better understand such concept, let's take an individual from the ontology as example:
