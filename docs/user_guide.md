@@ -277,7 +277,7 @@ For demo purposes, the app uses the API of the GEOSS DAB to avoid setting any cr
 <img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag2.jpg" alt="Tag tag option" align="center" />
 </p>
 
-Once the ID is entered, one can either see the metadata of the dataset or start setting EIFF-O tags. By clicking on the second button, an empty table is displayed, as no semantic concept is available (yet) for this dataset
+Once the ID is entered, one can either see the metadata of the dataset or start setting EIFF-O tags. By clicking on the second button, an empty table is displayed, as no semantic concept is available (yet) for this dataset.
 
 <p align="center">
 <img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag3.jpg" alt="Tag empty table" align="center" />
@@ -289,16 +289,17 @@ By clicking on the **Add a new Concept**, a new form appears where you will have
 <img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag4.jpg" alt="Tag search concept" align="center" />
 </p>
 
-As the tree can be quite large, you can also search by word to speed up the search (only the branches containing this word in any of their elements will be displayed).
+As the tree can be quite large, you can also search by word to speed up the process (only the branches containing this word in any of their elements will be displayed).
 
 <p align="center">
 <img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag5.jpg" alt="Tag search by word" align="center" />
 </p>
 
-You can use any of the concepts from the tree structure, in the case below (ECV) from first-level domain (Atmosphere) to ECV Product (Estimates of liquid and solid precipitation). By clicking with your mouse on any of them, a *SAVE* option will appear at the top right corner.
+You can use any of the concepts from the tree structure, in the case below (ECV taxonomy) from the first-level domain (Atmosphere) down to the ECV Product (Estimates of liquid and solid precipitation). By clicking with your mouse on any of them, a *SAVE* option will appear at the top right corner.
 
 <p align="center">
 <img src="https://github.com/benmomo/eiffel-ontology-doc/raw/main/docs/img/tag6.jpg" alt="Tag save option" align="center" />
+</p>
 
 After pressing the *SAVE* option, the concept is entered in the table. You can add new concepts, delete concepts and see the resulting JSON format (this is what will be added as semantic metadata in GEOSS datasets).
 
